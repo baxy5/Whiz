@@ -1,5 +1,6 @@
 <template>
-    <div>
-        <h1>whiz</h1>
-    </div>
+  <main class="px-3 lg:container">
+    <Navbar />
+    <Hero />
+  </main>
 </template>
