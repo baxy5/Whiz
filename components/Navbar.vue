@@ -104,7 +104,7 @@ function handleClick() {
   position: fixed;
   z-index: 9999;
   top: 1.5rem;
-  right: 1rem;
+  right: 1.5rem;
   padding: 0.25rem;
   cursor: pointer;
 
