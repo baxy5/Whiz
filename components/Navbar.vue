@@ -76,7 +76,7 @@ function handleClick() {
   height: 100%;
 
   border-radius: 0.625rem;
-  background: rgba(39, 36, 36, 0.75);
+  background-color: rgba(39, 36, 36, 0.75);
   backdrop-filter: blur(12.5px);
 
   display: flex;
@@ -106,8 +106,10 @@ function handleClick() {
   top: 1.5rem;
   right: 1rem;
   padding: 0.25rem;
+  cursor: pointer;
+
   border-radius: 0.625rem;
-  background: rgba(39, 36, 36, 0.75);
+  background-color: rgba(39, 36, 36, 0.75);
   backdrop-filter: blur(12.5px);
 }
 
@@ -115,6 +117,7 @@ function handleClick() {
   max-width: 100%;
   position: fixed;
   top: 1.5rem;
+  z-index: 9999;
 
   display: flex;
   justify-content: space-evenly;

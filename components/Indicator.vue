@@ -25,4 +25,17 @@
   background: rgba(0, 0, 0, 0.75);
   backdrop-filter: blur(12.5px);
 }
+
+@media only screen and (min-width: 1024px) {
+  .indicator {
+    width: 13rem;
+    font-size: 0.85rem;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .indicator {
+    width: 16rem;
+    font-size: 1rem;
+  }
+}
 </style>

@@ -13,14 +13,14 @@ export default {
       center: true,
       padding: {
         DEFAULT: "0.75rem",
-        lg: "1rem",
-        xl: "4.75rem",
+        xxl: "1rem",
       },
       screens: {
         sm: "360px",
         md: "768px",
         lg: "1024px",
         xl: "1440px",
+        xxl: "1920px",
       },
     },
     screens: {
@@ -28,6 +28,7 @@ export default {
       md: "768px",
       lg: "1024px",
       xl: "1440px",
+      xxl: "1920px",
     },
     extend: {},
   },

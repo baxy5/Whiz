@@ -9,3 +9,7 @@ body {
   font-family: "Space Grotesk", sans-serif;
   background-color: #131416;
 }
+
+::selection{
+  background: #5E2BFF;
+}
