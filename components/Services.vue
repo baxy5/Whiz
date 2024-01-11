@@ -84,7 +84,8 @@
       </Box>
     </div>
     <div class="mt-4 flex flex-col gap-4 lg:grid lg:grid-cols-3">
-      <div class="idea-box px-[2.8rem] pt-[2rem] pb-[2rem] lg:order-2">
+      <div class="idea-box relative px-[2.8rem] pt-[2rem] pb-[2rem] lg:order-2">
+        <div class="idea-box-blur absolute top-0 left-0 w-full h-full"></div>
         <h2
           class="text-white text-[1.125rem] font-bold leading-normal pb-[1.3rem] md:text-[1.25rem] lg:text-[1.5rem]"
         >
@@ -138,8 +139,15 @@
     #943fe6 116.14%,
     #5e2bff 123.58%
   );
-  box-shadow: 0px 4px 50px 0px rgba(0, 0, 0, 0.25) inset;
   backdrop-filter: blur(25px);
   -webkit-backdrop-filter: blur(25px);
+}
+
+.idea-box-blur {
+  z-index: -9999;
+
+  border-radius: 1.25rem;
+  background-color: rgba(39, 36, 36, 0.75);
+  backdrop-filter: blur(12.5px);
 }
 </style>
