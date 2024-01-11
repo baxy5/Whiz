@@ -1,6 +1,10 @@
 <template>
   <section class="pt-3 lg:pt-14">
-    <Box boxType="fancy">
+    <Box
+      box-type="fancy"
+      custom-class="pt-[7.5rem] pb-[3rem] px-[1.5rem]
+    lg:pt-[10rem] lg:px-[7rem] xl:pt-[13rem] xl:px-[12rem]"
+    >
       <Indicator>
         <p>Ügyfél elégedettség</p>
         <p class="flex gap-1 items-center">

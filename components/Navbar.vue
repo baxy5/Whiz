@@ -8,7 +8,7 @@
       />
       <div class="navbar-mobile-container" v-if="isOpen">
         <div class="navbar-mobile">
-          <img src="~/assets/icons/whiz-logo.svg" alt="Whiz Company's Logo" />
+          <img src="/icons/whiz-logo.svg" alt="Whiz Company's Logo" />
           <ul>
             <li>
               <a href="/">Főoldal</a>
@@ -33,7 +33,7 @@
 
     <div class="hidden lg:flex justify-center">
       <div class="navbar-desktop">
-        <img src="~/assets/icons/whiz-logo.svg" alt="Whiz Company's Logo" />
+        <img src="/icons/whiz-logo.svg" alt="Whiz Company's Logo" />
         <ul>
           <li>
             <a href="/">Főoldal</a>
@@ -101,7 +101,7 @@ function handleClick() {
 }
 
 .nav-icon {
-  position: absolute;
+  position: fixed;
   z-index: 9999;
   top: 1.5rem;
   right: 1rem;
