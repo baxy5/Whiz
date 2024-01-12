@@ -8,6 +8,7 @@ export default defineNuxtConfig({
       "Space Grotesk": true,
     },
   },
+
   css: ["~/assets/css/main.css"],
   postcss: {
     plugins: {
@@ -15,5 +16,10 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
+
   modules: ["@nuxtjs/google-fonts"],
+
+  build: {
+    transpile: ["gsap"],
+  },
 });

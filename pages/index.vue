@@ -3,5 +3,6 @@
     <Navbar />
     <Hero />
     <Services />
+    <How />
   </main>
 </template>
