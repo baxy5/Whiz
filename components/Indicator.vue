@@ -6,7 +6,7 @@
 
 <style scoped>
 .indicator {
-  width: 11rem;
+  width: 12rem;
 
   padding: 0.4rem 0.6rem 0.4rem 0.6rem;
 
