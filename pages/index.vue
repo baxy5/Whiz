@@ -1,5 +1,5 @@
 <template>
-  <main class="px-3 xxl:container">
+  <main class="px-3 xxl:container overflow-hidden">
     <Navbar />
     <Hero />
     <Services />
