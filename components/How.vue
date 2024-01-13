@@ -2,31 +2,31 @@
   <section id="how" class="mt-4 md:grid md:grid-cols-2 md:gap-4">
     <Box
       box-type="dark"
-      custom-class="h-[100vh] order-1 flex flex-col justify-center items-center py-[14.5rem] px-12"
+      custom-class="h-[100vh] md:h-[80vh] order-1 flex flex-col justify-center items-center py-[14.5rem] px-12"
     >
       <div class="relative">
-        <div id="konzultacio">
+        <div id="konzultacio" class="w-full text-center">
           <h3 class="title">Konzultáció</h3>
           <p class="parag md:hidden">
             Először megismerkedünk, mert nálunk fontos az ügyféllel való
             kapcsolat. Majd alaposan átbeszéljük igényeid.
           </p>
         </div>
-        <div id="tervezes" class="absolute top-0">
+        <div id="tervezes" class="w-full text-center absolute top-0">
           <h3 class="title">Tervezés</h3>
           <p class="parag md:hidden">
             Az általad elmondottak alapján elkezdjük megtervezni a weboldalad
             kinézetét és funkcionalitását.
           </p>
         </div>
-        <div id="megvalositas" class="absolute top-0">
+        <div id="megvalositas" class="w-full text-center absolute top-0">
           <h3 class="title">Megvalósítás</h3>
           <p class="parag md:hidden">
             A megtervezett weboldaladat elkezdjük építeni. Igény szerint nyomon
             tudod követni weboldalad építését egy linken keresztül.
           </p>
         </div>
-        <div id="egyeztetes" class="absolute top-0">
+        <div id="egyeztetes" class="w-full text-center absolute top-0">
           <h3 class="title">Egyeztetés</h3>
           <p class="parag md:hidden">
             A fejlesztés után, küldünk egy linket amin le tudod tesztelni leendő
@@ -34,7 +34,7 @@
             maximumot a weboldaladból.
           </p>
         </div>
-        <div id="atadas" class="absolute top-0">
+        <div id="atadas" class="w-full text-center absolute top-0">
           <h3 class="title">Átadás</h3>
           <p class="parag md:hidden">
             A weboldalad sikeresen elkészült! Hozzáadjuk a kiválasztott
@@ -215,7 +215,7 @@ onNuxtReady(async () => {
     let tl = gsap.timeline({
       scrollTrigger: {
         trigger: "#how",
-        start: "top top",
+        start: "top-=150px top",
         end: "+=8500",
         scrub: 1,
         pin: "#how",
@@ -407,7 +407,7 @@ onNuxtReady(async () => {
   });
 });
 </script>
-<style>
+<style scoped>
 .title {
   color: #5e2bff;
   font-size: 1.875rem;

@@ -13,7 +13,7 @@
           Webfejlesztés
         </h2>
         <p
-          class="text-white text-[0.8125rem] leading-normal font-normal pb-[1.8rem] lg:text-[1rem]"
+          class="text-[#B5B5B5] text-[0.8125rem] leading-normal font-normal pb-[1.8rem] lg:text-[1rem]"
         >
           Nem mindennapi weboldalakat készítünk modern, felhasználóbarát és
           letisztult külsővel, kifejezetten az Ön igényeire szabva.
@@ -39,7 +39,7 @@
           Arculattervezés
         </h2>
         <p
-          class="text-white text-[0.8125rem] leading-normal font-normal pb-[1.8rem] lg:text-[1rem]"
+          class="text-[#B5B5B5] text-[0.8125rem] leading-normal font-normal pb-[1.8rem] lg:text-[1rem]"
         >
           Varázsoljuk álmai arculatát valósággá - Megtervezzük vállalkozása
           logóját és arculatát vagy akár arculati kézikönyvét az Ön elképzelései
@@ -66,7 +66,7 @@
           Pénzügyi tanácsadás
         </h2>
         <p
-          class="text-white text-[0.8125rem] leading-normal font-normal pb-[1.8rem] lg:text-[1rem]"
+          class="text-[#B5B5B5] text-[0.8125rem] leading-normal font-normal pb-[1.8rem] lg:text-[1rem]"
         >
           Varázsoljuk álmai arculatát valósággá - Megtervezzük vállalkozása
           logóját és arculatát vagy akár arculati kézikönyvét az Ön elképzelései
