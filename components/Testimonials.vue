@@ -5,7 +5,7 @@
         <h3 class="title">
           Szalai Éva - <span class="font-light">Webfejleszés</span>
         </h3>
-        <p class="parag w-[14rem] md:w-[16rem] lg:w-[30rem]">
+        <p class="parag w-[17rem] md:w-[19rem] lg:w-[30rem]">
           “Fiatalok, okosak, intelligensek, kultúráltak. Nekem ez fontos. Tenni
           akarnak és ötletelnek. Határidőre dolgoznak. Hozzák a trendet, a
           fiatalos gondolkodást, a lendületet. Szívből ajánlom Őket.” -
@@ -15,7 +15,7 @@
         <h3 class="title">
           Szalai Éva - <span class="font-light">Webfejleszés</span>
         </h3>
-        <p class="parag w-[14rem] md:w-[16rem] lg:w-[30rem]">
+        <p class="parag w-[17rem] md:w-[19rem] lg:w-[30rem]">
           “Fiatalok, okosak, intelligensek, kultúráltak. Nekem ez fontos. Tenni
           akarnak és ötletelnek. Határidőre dolgoznak. Hozzák a trendet, a
           fiatalos gondolkodást, a lendületet. Szívből ajánlom Őket.” -
@@ -25,7 +25,7 @@
         <h3 class="title">
           Szalai Éva - <span class="font-light">Webfejleszés</span>
         </h3>
-        <p class="parag w-[14rem] md:w-[16rem] lg:w-[30rem]">
+        <p class="parag w-[17rem] md:w-[19rem] lg:w-[30rem]">
           “Fiatalok, okosak, intelligensek, kultúráltak. Nekem ez fontos. Tenni
           akarnak és ötletelnek. Határidőre dolgoznak. Hozzák a trendet, a
           fiatalos gondolkodást, a lendületet. Szívből ajánlom Őket.” -
@@ -35,7 +35,7 @@
         <h3 class="title">
           Szalai Éva - <span class="font-light">Webfejleszés</span>
         </h3>
-        <p class="parag w-[14rem] md:w-[16rem] lg:w-[30rem]">
+        <p class="parag w-[17rem] md:w-[19rem] lg:w-[30rem]">
           “Fiatalok, okosak, intelligensek, kultúráltak. Nekem ez fontos. Tenni
           akarnak és ötletelnek. Határidőre dolgoznak. Hozzák a trendet, a
           fiatalos gondolkodást, a lendületet. Szívből ajánlom Őket.” -
@@ -45,7 +45,7 @@
         <h3 class="title">
           Szalai Éva - <span class="font-light">Webfejleszés</span>
         </h3>
-        <p class="parag w-[14rem] md:w-[16rem] lg:w-[30rem]">
+        <p class="parag w-[17rem] md:w-[19rem] lg:w-[30rem]">
           “Fiatalok, okosak, intelligensek, kultúráltak. Nekem ez fontos. Tenni
           akarnak és ötletelnek. Határidőre dolgoznak. Hozzák a trendet, a
           fiatalos gondolkodást, a lendületet. Szívből ajánlom Őket.” -
@@ -55,7 +55,7 @@
         <h3 class="title">
           Szalai Éva - <span class="font-light">Webfejleszés</span>
         </h3>
-        <p class="parag w-[14rem] md:w-[16rem] lg:w-[30rem]">
+        <p class="parag w-[17rem] md:w-[19rem] lg:w-[30rem]">
           “Fiatalok, okosak, intelligensek, kultúráltak. Nekem ez fontos. Tenni
           akarnak és ötletelnek. Határidőre dolgoznak. Hozzák a trendet, a
           fiatalos gondolkodást, a lendületet. Szívből ajánlom Őket.” -
