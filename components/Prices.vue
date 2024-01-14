@@ -1,6 +1,6 @@
 <template>
-  <section class="mt-4">
-    <div class="flex justify-center items-center">
+  <section class="mt-8">
+    <div class="flex justify-center items-center lg:hidden">
       <div class="w-[15rem] h-[15rem]">
         <client-only>
           <Vue3Lottie :animation-data="Handshake" />
@@ -8,10 +8,10 @@
       </div>
     </div>
     <div id="prices-container">
-      <div id="prices" class="mt-4 min-w-min flex gap-4">
+      <div id="prices" class="mt-4 min-w-min flex gap-4 lg:grid lg:grid-cols-2">
         <Box
           box-type="dark"
-          custom-class="custom-border flex flex-col justify-between items-center pt-[3rem] pb-[1rem]"
+          custom-class="custom-border flex flex-col justify-between items-center pt-[3rem] pb-[1rem] sl:px-4"
         >
           <h4 class="title pb-5 text-center w-[20rem] md:w-[25rem]">
             webfejlesztés
@@ -41,7 +41,7 @@
         </Box>
         <Box
           box-type="dark"
-          custom-class="flex flex-col justify-center items-center pt-[3rem] pb-[1rem]"
+          custom-class="flex flex-col justify-between items-center pt-[3rem] pb-[1rem] sl:px-4"
         >
           <h4 class="title pb-5 text-center w-[20rem] md:w-[25rem]">
             Arculat/Logó tervezés
@@ -75,9 +75,11 @@
         </Box>
         <Box
           box-type="fancy"
-          custom-class="flex flex-col justify-center items-center pt-[3rem] pb-[1rem]"
+          custom-class="flex flex-col justify-between items-center pt-[3rem] pb-[1rem] sl:px-4"
         >
-          <h4 class="title pb-5 text-center w-[20rem] md:w-[25rem]">
+          <h4
+            class="title pb-5 text-center w-[20rem] sl:w-[22rem] md:w-[25rem]"
+          >
             Pénzügyi tanácsadás
           </h4>
           <p class="price pb-5">Egyéni árazás</p>
@@ -107,6 +109,13 @@
           </ul>
           <Button anchor-href="#contact">érdekel</Button>
         </Box>
+        <div class="hidden lg:flex justify-center items-center">
+          <div class="w-[20rem] h-[20rem]">
+            <client-only>
+              <Vue3Lottie :animation-data="Handshake" />
+            </client-only>
+          </div>
+        </div>
       </div>
     </div>
   </section>
@@ -120,9 +129,17 @@ import { Draggable } from "gsap/Draggable";
 gsap.registerPlugin(ScrollTrigger, Draggable);
 
 onNuxtReady(async () => {
-  Draggable.create("#prices", {
+  let mm = gsap.matchMedia();
+  let draggable = Draggable.create("#prices", {
     type: "x",
     bounds: "#prices-container",
+  });
+
+  mm.add("(max-width: 1023px)", () => {
+    draggable[0].enable();
+  });
+  mm.add("(min-width: 1024px)", () => {
+    draggable[0].disable();
   });
 });
 </script>
@@ -163,5 +180,20 @@ onNuxtReady(async () => {
   background: linear-gradient(#000, #000) padding-box,
     linear-gradient(to right, #5e2bff, #b64ccd) border-box;
   border: 1px solid transparent;
+}
+
+@media only screen and (min-width: 768px) {
+  .title {
+    color: #fff;
+    font-size: 2rem;
+  }
+
+  .price {
+    font-size: 2.5rem;
+  }
+
+  .list {
+    font-size: 1rem;
+  }
 }
 </style>

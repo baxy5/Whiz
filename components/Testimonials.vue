@@ -1,6 +1,6 @@
 <template>
   <section class="asd">
-    <section id="container" class="mt-4 min-w-min flex gap-4">
+    <section id="container" class="mt-8 min-w-min flex gap-4">
       <Box box-type="fancy" custom-class="p-8">
         <h3 class="title">
           Szalai Éva - <span class="font-light">Webfejleszés</span>
