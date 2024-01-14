@@ -3,7 +3,8 @@
     <Navbar />
     <Hero />
     <Services />
-    <How />
+    <!-- <How /> -->
     <Testimonials />
+    <Prices />
   </main>
 </template>

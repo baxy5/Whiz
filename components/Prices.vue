@@ -1,0 +1,167 @@
+<template>
+  <section class="mt-4">
+    <div class="flex justify-center items-center">
+      <div class="w-[15rem] h-[15rem]">
+        <client-only>
+          <Vue3Lottie :animation-data="Handshake" />
+        </client-only>
+      </div>
+    </div>
+    <div id="prices-container">
+      <div id="prices" class="mt-4 min-w-min flex gap-4">
+        <Box
+          box-type="dark"
+          custom-class="custom-border flex flex-col justify-between items-center pt-[3rem] pb-[1rem]"
+        >
+          <h4 class="title pb-5 text-center w-[20rem] md:w-[25rem]">
+            webfejlesztés
+          </h4>
+          <p class="price pb-5">119.990 Ft.- tól</p>
+          <ul class="list pb-6">
+            <li class="flex items-center gap-2">
+              <img src="/icons/list-dot.svg" alt="Lista Jelzés Icon" /> Saját
+              logó
+            </li>
+            <li class="flex items-center gap-2">
+              <img src="/icons/list-dot.svg" alt="Lista Jelzés Icon" />Egyedi
+              webdesign
+            </li>
+            <li class="flex items-center gap-2">
+              <img src="/icons/list-dot.svg" alt="Lista Jelzés Icon" />Animációk
+            </li>
+            <li class="flex items-center gap-2">
+              <img src="/icons/list-dot.svg" alt="Lista Jelzés Icon" />Domain,
+              saját céges email cím
+            </li>
+            <li class="flex items-center gap-2">
+              <img src="/icons/list-dot.svg" alt="Lista Jelzés Icon" />SEO
+            </li>
+          </ul>
+          <Button anchor-href="#contact">érdekel</Button>
+        </Box>
+        <Box
+          box-type="dark"
+          custom-class="flex flex-col justify-center items-center pt-[3rem] pb-[1rem]"
+        >
+          <h4 class="title pb-5 text-center w-[20rem] md:w-[25rem]">
+            Arculat/Logó tervezés
+          </h4>
+          <p class="price pb-5">19.990 Ft.- tól</p>
+          <ul class="list pb-6">
+            <li class="flex items-center gap-2">
+              <img src="/icons/list-dot.svg" alt="Lista Jelzés Icon" />
+              Színpaletta kiválasztása
+            </li>
+            <li class="flex items-center gap-2">
+              <img src="/icons/list-dot.svg" alt="Lista Jelzés Icon" />Egyedi
+              logó
+            </li>
+            <li class="flex items-center gap-2">
+              <img src="/icons/list-dot.svg" alt="Lista Jelzés Icon" />Social
+              Media sablonok
+            </li>
+            <li class="flex items-center gap-2">
+              <img
+                src="/icons/list-dot.svg"
+                alt="Lista Jelzés Icon"
+              />Névjegykártya
+            </li>
+            <li class="flex items-center gap-2">
+              <img src="/icons/list-dot.svg" alt="Lista Jelzés Icon" />Szórólap
+              / Molinó
+            </li>
+          </ul>
+          <Button anchor-href="#contact">érdekel</Button>
+        </Box>
+        <Box
+          box-type="fancy"
+          custom-class="flex flex-col justify-center items-center pt-[3rem] pb-[1rem]"
+        >
+          <h4 class="title pb-5 text-center w-[20rem] md:w-[25rem]">
+            Pénzügyi tanácsadás
+          </h4>
+          <p class="price pb-5">Egyéni árazás</p>
+          <ul class="list pb-6">
+            <li class="flex items-center gap-2">
+              <img src="/icons/list-dot.svg" alt="Lista Jelzés Icon" />
+              Hitelügyintézés
+            </li>
+            <li class="flex items-center gap-2">
+              <img
+                src="/icons/list-dot.svg"
+                alt="Lista Jelzés Icon"
+              />Pályázatírás
+            </li>
+            <li class="flex items-center gap-2">
+              <img
+                src="/icons/list-dot.svg"
+                alt="Lista Jelzés Icon"
+              />Megtakarítás
+            </li>
+            <li class="flex items-center gap-2">
+              <img
+                src="/icons/list-dot.svg"
+                alt="Lista Jelzés Icon"
+              />Számlanyitás
+            </li>
+          </ul>
+          <Button anchor-href="#contact">érdekel</Button>
+        </Box>
+      </div>
+    </div>
+  </section>
+</template>
+<script setup>
+import { Vue3Lottie } from "vue3-lottie";
+import Handshake from "~/assets/lottie/handshake-lottie.json";
+import gsap from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+import { Draggable } from "gsap/Draggable";
+gsap.registerPlugin(ScrollTrigger, Draggable);
+
+onNuxtReady(async () => {
+  Draggable.create("#prices", {
+    type: "x",
+    bounds: "#prices-container",
+  });
+});
+</script>
+<style scoped>
+.title {
+  color: #fff;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.price {
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+
+  background: linear-gradient(90deg, #5e2bff 0%, #723080 115.64%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.list {
+  color: #fff;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+
+  display: grid;
+  gap: 1rem;
+}
+
+.custom-border {
+  /* border: 1px solid #5e2bff; */
+
+  background: linear-gradient(#000, #000) padding-box,
+    linear-gradient(to right, #5e2bff, #b64ccd) border-box;
+  border: 1px solid transparent;
+}
+</style>
