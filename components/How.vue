@@ -2,69 +2,121 @@
   <section id="how" class="mt-4 md:grid md:grid-cols-2 md:gap-4">
     <Box
       box-type="dark"
-      custom-class="h-[100vh] md:h-[80vh] order-1 flex flex-col justify-center items-center py-[14.5rem] px-12"
+      custom-class="h-[100vh] order-1 flex flex-col justify-center items-center py-[14.5rem] px-12"
     >
       <div class="relative">
         <div id="konzultacio" class="w-full text-center">
-          <h3 class="title">Konzultáció</h3>
-          <p class="parag md:hidden">
-            Először megismerkedünk, mert nálunk fontos az ügyféllel való
-            kapcsolat. Majd alaposan átbeszéljük igényeid.
-          </p>
+          <img
+            class="hidden md:block w-[6rem] h-[6rem]"
+            src="~/assets/icons/konzultacio.png"
+            alt="Konzultáció Icon - Ha velünk dolgozol ez az első lépés."
+          />
+          <div class="block md:hidden">
+            <h3 class="title">Konzultáció</h3>
+            <p class="parag md:hidden">
+              Először megismerkedünk, mert nálunk fontos az ügyféllel való
+              kapcsolat. Majd alaposan átbeszéljük igényeid.
+            </p>
+          </div>
         </div>
         <div id="tervezes" class="w-full text-center absolute top-0">
-          <h3 class="title">Tervezés</h3>
-          <p class="parag md:hidden">
-            Az általad elmondottak alapján elkezdjük megtervezni a weboldalad
-            kinézetét és funkcionalitását.
-          </p>
+          <img
+            class="hidden md:block w-[6rem] h-[6rem]"
+            src="~/assets/icons/tervezes.png"
+            alt="Tervezés Icon - Ha velünk dolgozol ez a második lépés."
+          />
+          <div class="block md:hidden">
+            <h3 class="title">Tervezés</h3>
+            <p class="parag md:hidden">
+              Az általad elmondottak alapján elkezdjük megtervezni a weboldalad
+              kinézetét és funkcionalitását.
+            </p>
+          </div>
         </div>
         <div id="megvalositas" class="w-full text-center absolute top-0">
-          <h3 class="title">Megvalósítás</h3>
-          <p class="parag md:hidden">
-            A megtervezett weboldaladat elkezdjük építeni. Igény szerint nyomon
-            tudod követni weboldalad építését egy linken keresztül.
-          </p>
+          <img
+            class="hidden md:block w-[6rem] h-[6rem]"
+            src="~/assets/icons/megvalositas.png"
+            alt="Megvalósítás Icon - Ha velünk dolgozol ez a harmadik lépés."
+          />
+          <div class="block md:hidden">
+            <h3 class="title">Megvalósítás</h3>
+            <p class="parag md:hidden">
+              A megtervezett weboldaladat elkezdjük építeni. Igény szerint
+              nyomon tudod követni weboldalad építését egy linken keresztül.
+            </p>
+          </div>
         </div>
         <div id="egyeztetes" class="w-full text-center absolute top-0">
-          <h3 class="title">Egyeztetés</h3>
-          <p class="parag md:hidden">
-            A fejlesztés után, küldünk egy linket amin le tudod tesztelni leendő
-            weboldaladat. Javítjuk a hibákat, változtatásokat, hogy kihozzuk a
-            maximumot a weboldaladból.
-          </p>
+          <img
+            class="hidden md:block w-[6rem] h-[6rem]"
+            src="~/assets/icons/egyeztetes.png"
+            alt="Egyeztetés Icon - Ha velünk dolgozol ez a negyedik lépés."
+          />
+          <div class="block md:hidden">
+            <h3 class="title">Egyeztetés</h3>
+            <p class="parag md:hidden">
+              A fejlesztés után, küldünk egy linket amin le tudod tesztelni
+              leendő weboldaladat. Javítjuk a hibákat, változtatásokat, hogy
+              kihozzuk a maximumot a weboldaladból.
+            </p>
+          </div>
         </div>
         <div id="atadas" class="w-full text-center absolute top-0">
-          <h3 class="title">Átadás</h3>
-          <p class="parag md:hidden">
-            A weboldalad sikeresen elkészült! Hozzáadjuk a kiválasztott
-            domainedhez. És már oszthatod is.
-          </p>
+          <img
+            class="hidden md:block w-[6rem] h-[6rem]"
+            src="~/assets/icons/atadas.png"
+            alt="Átadás Icon - Ha velünk dolgozol ez a végső lépés."
+          />
+          <div class="block md:hidden">
+            <h3 class="title">Átadás</h3>
+            <p class="parag md:hidden">
+              A weboldalad sikeresen elkészült! Hozzáadjuk a kiválasztott
+              domainedhez. És már oszthatod is.
+            </p>
+          </div>
         </div>
       </div>
     </Box>
-    <div class="hidden relative order-2 md:flex jusitfy-center items-center">
-      <p id="text1" class="parag">
-        Először megismerkedünk, mert nálunk fontos az ügyféllel való kapcsolat.
-        Majd alaposan átbeszéljük igényeid.
-      </p>
-      <p id="text2" class="parag absolute">
-        Az általad elmondottak alapján elkezdjük megtervezni a weboldalad
-        kinézetét és funkcionalitását.
-      </p>
-      <p id="text3" class="parag absolute">
-        A megtervezett weboldaladat elkezdjük építeni. Igény szerint nyomon
-        tudod követni weboldalad építését egy linken keresztül.
-      </p>
-      <p id="text4" class="parag absolute">
-        A fejlesztés után, küldünk egy linket amin le tudod tesztelni leendő
-        weboldaladat. Javítjuk a hibákat, változtatásokat, hogy kihozzuk a
-        maximumot a weboldaladból.
-      </p>
-      <p id="text5" class="parag absolute">
-        A weboldalad sikeresen elkészült! Hozzáadjuk a kiválasztott domainedhez.
-        És már oszthatod is.
-      </p>
+    <div
+      class="hidden relative order-2 md:flex jusitfy-center items-center md:pl-8 xl:pl-32"
+    >
+      <div id="text1" class="absolute md:w-[20rem] lg:w-[25rem] w-[30rem]">
+        <h3 class="title">Konzultáció</h3>
+        <p class="parag">
+          Először megismerkedünk, mert nálunk fontos az ügyféllel való
+          kapcsolat. Majd alaposan átbeszéljük igényeid.
+        </p>
+      </div>
+      <div id="text2" class="absolute md:w-[20rem] lg:w-[25rem] w-[30rem]">
+        <h3 class="title">Tervezés</h3>
+        <p class="parag">
+          Az általad elmondottak alapján elkezdjük megtervezni a weboldalad
+          kinézetét és funkcionalitását.
+        </p>
+      </div>
+      <div id="text3" class="absolute md:w-[20rem] lg:w-[25rem] w-[30rem]">
+        <h3 class="title">Megvalósítás</h3>
+        <p class="parag">
+          A megtervezett weboldaladat elkezdjük építeni. Igény szerint nyomon
+          tudod követni weboldalad építését egy linken keresztül.
+        </p>
+      </div>
+      <div id="text4" class="absolute md:w-[20rem] lg:w-[25rem] w-[30rem]">
+        <h3 class="title">Egyeztetés</h3>
+        <p class="parag">
+          A fejlesztés után, küldünk egy linket amin le tudod tesztelni leendő
+          weboldaladat. Javítjuk a hibákat, változtatásokat, hogy kihozzuk a
+          maximumot a weboldaladból.
+        </p>
+      </div>
+      <div id="text5" class="absolute md:w-[20rem] lg:w-[25rem] w-[30rem]">
+        <h3 class="title">Átadás</h3>
+        <p class="parag">
+          A weboldalad sikeresen elkészült! Hozzáadjuk a kiválasztott
+          domainedhez. És már oszthatod is.
+        </p>
+      </div>
     </div>
   </section>
 </template>
@@ -215,7 +267,7 @@ onNuxtReady(async () => {
     let tl = gsap.timeline({
       scrollTrigger: {
         trigger: "#how",
-        start: "top-=150px top",
+        start: "top top",
         end: "+=8500",
         scrub: 1,
         pin: "#how",

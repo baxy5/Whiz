@@ -12,7 +12,7 @@
           <img
             class="w-3 h-3 lg:w-[0.85rem] lg:h-[0.85rem] xl:w-[1rem] xl:h-[1rem]"
             src="/icons/star-icon.svg"
-            alt="Star Icon - Indicates the feedbacks from customers which is 4.8"
+            alt="Star Icon - Jelzi a visszajelzések értékelését ami 4.8"
           />
         </p>
       </Indicator>
@@ -42,7 +42,7 @@
       <div class="flex justify-center pt-10 lg:pt-36 xl:pt-48">
         <img
           src="/icons/arrow-down.svg"
-          alt="Arrow Down - Indicates that the site can be scrolled down."
+          alt="Arrow Down - Tudsz lefele görgetni."
         />
       </div>
     </Box>

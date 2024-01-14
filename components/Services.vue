@@ -5,7 +5,7 @@
         <img
           class="w-10 h-10 lg:w-12 lg:h-12"
           src="/icons/dev-icon.svg"
-          alt="Development Icon - Webdevelopment Service"
+          alt="Fejlesztési Icon - Webfejlesztés Szolgáltatás"
         />
         <h2
           class="text-white text-[1.125rem] font-bold leading-normal pt-6 pb-[1.3rem] lg:text-[1.5rem]"
@@ -24,7 +24,7 @@
           <a href="/dev">Tudj meg többet</a>
           <img
             src="/icons/arrow-right.svg"
-            alt="Arrow Right - Clickable for know more"
+            alt="Arrow Right - Kattintható, hogy többet megtudj."
           />
         </div>
       </Box>
@@ -32,7 +32,7 @@
         <img
           class="w-10 h-10 lg:w-12 lg:h-12"
           src="/icons/design-icon.svg"
-          alt="Design Icon - Design Service" />
+          alt="Design Icon - Design Szolgáltatás" />
         <h2
           class="text-white text-[1.125rem] font-bold leading-normal pt-6 pb-[1.3rem] lg:text-[1.5rem]"
         >
@@ -51,14 +51,14 @@
           <a href="/design">Tudj meg többet</a>
           <img
             src="/icons/arrow-right.svg"
-            alt="Arrow Right - Clickable for know more"
+            alt="Arrow Right - Kattintható, hogy többet megtudj."
           /></div
       ></Box>
       <Box box-type="fancy" custom-class="px-[2.8rem] pt-[2rem] pb-[3rem]">
         <img
           class="w-10 h-10 lg:w-12 lg:h-12"
           src="/icons/finance-icon.svg"
-          alt="Finance Icon - Finance Service"
+          alt="Pénzügy Icon - Pénzügyi Szolgáltatás"
         />
         <h2
           class="text-white text-[1.125rem] font-bold leading-normal pt-6 pb-[1.3rem] lg:text-[1.5rem]"
@@ -78,7 +78,7 @@
           <a href="/finance">Tudj meg többet</a>
           <img
             src="/icons/arrow-right.svg"
-            alt="Arrow Right - Clickable for know more"
+            alt="Arrow Right - Kattintható, hogy többet megtudj."
           />
         </div>
       </Box>
@@ -103,7 +103,7 @@
           <a href="tel:+36308754438">Hívjon most</a>
           <img
             src="/icons/arrow-right.svg"
-            alt="Arrow Right - Clickable for know more"
+            alt="Arrow Right - Kattintható, hogy többet megtudj."
           />
         </div>
       </div>
