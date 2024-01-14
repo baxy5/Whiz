@@ -133,6 +133,7 @@ onNuxtReady(async () => {
   let draggable = Draggable.create("#prices", {
     type: "x",
     bounds: "#prices-container",
+    edgeResistance: 0.65,
   });
 
   mm.add("(max-width: 1023px)", () => {
