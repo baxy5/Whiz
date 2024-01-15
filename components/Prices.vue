@@ -2,9 +2,9 @@
   <section class="mt-8">
     <div class="flex justify-center items-center lg:hidden">
       <div class="w-[15rem] h-[15rem]">
-        <client-only>
+        <ClientOnly>
           <Vue3Lottie :animation-data="Handshake" />
-        </client-only>
+        </ClientOnly>
       </div>
     </div>
     <div id="prices-container">

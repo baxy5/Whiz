@@ -6,5 +6,6 @@
     <!-- <How /> -->
     <Testimonials />
     <Prices />
+    <Contact />
   </main>
 </template>
