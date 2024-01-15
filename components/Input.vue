@@ -6,6 +6,7 @@
     :name="name"
     :value="value"
     required
+    autocomplete="off"
   />
 </template>
 <script setup lang="ts">
