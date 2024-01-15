@@ -5,7 +5,9 @@
       custom-class="flex flex-col items-center py-[2.75rem] md:py-[4rem]"
     >
       <h4 class="title pb-[2.5rem]">Kapcsolat</h4>
-      <form class="flex flex-col items-center px-[4rem]">
+      <form
+        class="w-full flex flex-col items-center px-[2rem] md:px-[10rem] lg:w-[700px]"
+      >
         <Input
           type="text"
           name="name"
@@ -30,7 +32,7 @@
         </p>
       </form>
 
-      <div class="grid grid-cols-2 gap-10 mt-16">
+      <div class="w-full grid grid-cols-2 gap-10 mt-16 md:flex md:pl-16">
         <div>
           <h5 class="contact-title pb-[0.7rem]">Design / Webdev</h5>
           <div class="contact-info pb-[1rem]">
@@ -53,6 +55,15 @@
         </div>
       </div>
 
+      <div class="hidden xl:block w-full mt-8">
+        <ul class="w-full flex justify-around text-white text-[1rem] font-light">
+          <li><a href="/">Főoldal</a></li>
+          <li><a href="/dev">Dev</a></li>
+          <li><a href="/design">Design</a></li>
+          <li><a href="/penzugy">Pénzügy</a></li>
+        </ul>
+      </div>
+
       <div class="flex justify-center items-center pt-12">
         <img src="/icons/whiz-logo.svg" alt="Whiz Company's Logo" />
       </div>
@@ -63,7 +74,7 @@
 <style scoped>
 .title {
   color: #fff;
-  font-size: 1.5625rem;
+  font-size: 2rem;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -152,7 +163,7 @@
 .contact-title {
   color: #fff;
   font-family: Space Grotesk;
-  font-size: 0.625rem;
+  font-size: 0.75rem;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
@@ -162,7 +173,7 @@
 .contact-info {
   color: #fff;
   font-family: Space Grotesk;
-  font-size: 0.625rem;
+  font-size: 0.75rem;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
