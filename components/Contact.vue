@@ -2,7 +2,7 @@
   <footer class="mt-8">
     <Box
       box-type="fancy"
-      custom-class="flex flex-col items-center py-[2.75rem] md:py-[4rem]"
+      custom-class="relative flex flex-col items-center mb-[1rem] pt-[2.75rem] md:pt-[4rem]"
     >
       <h4 class="title pb-[2.5rem]">Kapcsolat</h4>
       <form
@@ -32,46 +32,75 @@
         </p>
       </form>
 
-      <div class="w-full grid grid-cols-2 gap-10 mt-16 md:flex md:pl-16">
-        <div>
-          <h5 class="contact-title pb-[0.7rem]">Design / Webdev</h5>
-          <div class="contact-info pb-[1rem]">
-            <p>Kiss Csaba</p>
-            <p>06 30 875 4438</p>
+      <div class="idea-box relative w-full mt-16 py-[4rem]">
+        <div class="idea-box-blur absolute top-0 left-0 w-full h-full"></div>
+        <div class="grid grid-cols-2 gap-10 px-6 md:flex md:pl-16">
+          <div>
+            <h5 class="contact-title pb-[0.7rem]">Design / Webdev</h5>
+            <div class="contact-info pb-[1rem]">
+              <p>Kiss Csaba</p>
+              <p>06 30 875 4438</p>
+            </div>
+            <div class="contact-info pb-[1rem]">
+              <p>Bakos János</p>
+              <p>06 70 318 8418</p>
+            </div>
+            <p class="contact-info">dev@whiz.hu</p>
           </div>
-          <div class="contact-info pb-[1rem]">
-            <p>Bakos János</p>
-            <p>06 70 318 8418</p>
+          <div>
+            <h5 class="contact-title pb-[0.7rem]">Pénzügy</h5>
+            <div class="contact-info pb-[1rem]">
+              <p>Tekes-Szabó Krisztina</p>
+              <p>06 30 229 6231</p>
+            </div>
+            <p class="contact-info">finance@whiz.hu</p>
           </div>
-          <p class="contact-info">dev@whiz.hu</p>
         </div>
-        <div>
-          <h5 class="contact-title pb-[0.7rem]">Pénzügy</h5>
-          <div class="contact-info pb-[1rem]">
-            <p>Tekes-Szabó Krisztina</p>
-            <p>06 30 229 6231</p>
-          </div>
-          <p class="contact-info">finance@whiz.hu</p>
+
+        <div class="hidden lg:block w-full mt-12">
+          <ul
+            class="w-full flex justify-around text-white text-[1rem] font-light"
+          >
+            <li><a href="/">Főoldal</a></li>
+            <li><a href="/dev">Dev</a></li>
+            <li><a href="/design">Design</a></li>
+            <li><a href="/penzugy">Pénzügy</a></li>
+          </ul>
         </div>
-      </div>
 
-      <div class="hidden xl:block w-full mt-8">
-        <ul class="w-full flex justify-around text-white text-[1rem] font-light">
-          <li><a href="/">Főoldal</a></li>
-          <li><a href="/dev">Dev</a></li>
-          <li><a href="/design">Design</a></li>
-          <li><a href="/penzugy">Pénzügy</a></li>
-        </ul>
-      </div>
-
-      <div class="flex justify-center items-center pt-12">
-        <img src="/icons/whiz-logo.svg" alt="Whiz Company's Logo" />
+        <div class="flex justify-center items-center pt-12">
+          <img src="/icons/whiz-logo.svg" alt="Whiz Company's Logo" />
+        </div>
       </div>
     </Box>
   </footer>
 </template>
 <script setup></script>
 <style scoped>
+.idea-box {
+  background: linear-gradient(
+    72deg,
+    #000 15.56%,
+    #773090 78.62%,
+    #c451cf 96.97%,
+    #943fe6 116.14%,
+    #5e2bff 123.58%
+  );
+  backdrop-filter: blur(25px);
+  -webkit-backdrop-filter: blur(25px);
+
+  border-bottom-left-radius: 1.25rem;
+  border-bottom-right-radius: 1.25rem;
+}
+.idea-box-blur {
+  z-index: -9999;
+
+  background-color: rgba(39, 36, 36, 0.75);
+  backdrop-filter: blur(12.5px);
+
+  border-bottom-left-radius: 1.25rem;
+  border-bottom-right-radius: 1.25rem;
+}
 .title {
   color: #fff;
   font-size: 2rem;
@@ -179,6 +208,26 @@
   line-height: normal;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1024px) {
+  .title {
+    font-size: 3rem;
+  }
+  .adatkezeles {
+    width: 18rem;
+    font-size: 0.85rem;
+
+    a {
+      font-size: 0.85rem;
+    }
+  }
+  .contact-title {
+    font-size: 1rem;
+  }
+  .contact-info {
+    font-size: 1rem;
+  }
+  .submit {
+    font-size: 0.9rem;
+  }
 }
 </style>

@@ -42,12 +42,15 @@ defineProps<{
 ::placeholder {
   color: rgba(255, 255, 255, 0.65);
   font-family: Space Grotesk;
-  font-size: 0.6875rem;
+  font-size: 0.85rem;
   font-style: normal;
   font-weight: 300;
   line-height: normal;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1440px) {
+  .input {
+    padding: 0.35rem 1rem 0.35rem 1rem;
+  }
 }
 </style>
