@@ -2,14 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Space Grotesk", sans-serif;
   background-color: #131416;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-::selection{
-  background: #5E2BFF;
+::selection {
+  background: #5e2bff;
 }

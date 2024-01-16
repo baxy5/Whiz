@@ -3,7 +3,6 @@
     <Navbar />
     <Hero />
     <Services />
-    <!-- <How /> -->
     <Testimonials />
     <Prices />
     <Contact />

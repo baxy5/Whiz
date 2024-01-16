@@ -1,5 +1,5 @@
 <template>
-  <footer class="mt-8">
+  <footer id="contact" class="mt-8">
     <Box
       box-type="fancy"
       custom-class="relative flex flex-col items-center mb-[1rem] pt-[2.75rem] md:pt-[4rem]"

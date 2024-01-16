@@ -114,9 +114,9 @@
         </Box>
         <div class="hidden lg:flex justify-center items-center">
           <div class="w-[20rem] h-[20rem]">
-            <client-only>
+            <ClientOnly>
               <Vue3Lottie :animation-data="Handshake" />
-            </client-only>
+            </ClientOnly>
           </div>
         </div>
       </div>
