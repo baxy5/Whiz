@@ -39,7 +39,7 @@ defineProps<{
   border: 1px solid #5f2bfd;
 }
 
-::placeholder {
+.input::placeholder {
   color: rgba(255, 255, 255, 0.65);
   font-family: Space Grotesk;
   font-size: 0.85rem;

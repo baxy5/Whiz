@@ -153,10 +153,10 @@
   background: rgba(72, 72, 72, 0.35);
   backdrop-filter: blur(2.5px);
 }
-::placeholder {
+.textarea::placeholder {
   color: rgba(255, 255, 255, 0.65);
   font-family: Space Grotesk;
-  font-size: 0.6875rem;
+  font-size: 0.85rem;
   font-style: normal;
   font-weight: 300;
   line-height: normal;
@@ -226,8 +226,14 @@
   .contact-info {
     font-size: 1rem;
   }
+  .textarea {
+    height: 8rem;
+    font-size: 0.9rem;
+  }
   .submit {
     font-size: 0.9rem;
+    width: 10rem;
+    height: 2rem;
   }
 }
 </style>
