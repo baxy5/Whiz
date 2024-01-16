@@ -6,7 +6,7 @@
     lg:pt-[10rem] lg:px-[7rem] xl:pt-[13rem] xl:px-[12rem]"
     >
       <Indicator>
-        <p>Ügyfél elégedettség</p>
+        <p>{{ indicatorText }}</p>
         <p class="flex gap-1 items-center">
           4.8
           <img
@@ -19,26 +19,18 @@
       <h1 class="text-white font-normal leading-normal pt-14 pb-12">
         <span
           class="text-[1.5rem] md:text-[2rem] lg:text-[3rem] xl:text-[3.5rem]"
-          >Együtt alkotunk.</span
+          >{{ spanOne }}</span
         >
         <br />
         <span
           class="text-[1.875rem] pt-2 md:text-[2.5rem] lg:text-[3.5rem] xl:text-[4rem]"
-          >Együtt szárnyalunk.</span
+          >{{ spanTwo }}</span
         >
       </h1>
       <p
+        v-html="formattedDescription"
         class="text-[1.125rem] text-white font-normal leading-normal lg:w-[50rem] xl:w-[60rem]"
-      >
-        Az
-        <span class="font-bold text-[#5E2BFF]">online jelenlét</span>
-        kulcsfontosságú. Képzelj csak el egy olyan
-        <span class="font-bold text-[#5E2BFF]">weboldalt</span>, amely pontosan
-        tükrözi vállalkozásodat.
-        <span class="font-bold text-[#5E2BFF]">Ügyfélbarát</span> hozzáállásunk
-        és a <span class="font-bold text-[#5E2BFF]">100%</span>-os elégedettség
-        elérése érdekében tett elkötelezettségünk tesz minket különlegessé.
-      </p>
+      ></p>
       <div class="flex justify-center pt-10 lg:pt-36 xl:pt-48">
         <img
           src="/icons/arrow-down.svg"
@@ -46,9 +38,38 @@
         />
       </div>
     </Box>
+    <div></div>
   </section>
 </template>
 
-<script>
-export default {};
+<script setup lang="ts">
+const props = defineProps<{
+  indicatorText: string;
+  spanOne: string;
+  spanTwo: string;
+  heroText: string;
+}>();
+
+const descriptionSentence = ref<string>(props.heroText || "");
+
+const formatDescription = (): string => {
+  const words = descriptionSentence.value.split(" ");
+
+  const formattedWords: Array<string> = words.map((word: string) => {
+    if (word.startsWith("/t") && word.endsWith(",")) {
+      // Takes out both "/t" and "," characters (This was needed because I didn't want this comma to have another style)
+      const cleanWord = word.replace("/t", "").replace(",", "");
+      return `<span class="font-bold text-[#5E2BFF]">${cleanWord}</span>,`;
+    } else if (word.startsWith("/t")) {
+      const cleanWord = word.replace("/t", "");
+      return `<span class="font-bold text-[#5E2BFF]">${cleanWord}</span>`;
+    } else {
+      return word;
+    }
+  });
+
+  return formattedWords.join(" ");
+};
+
+const formattedDescription = computed(() => formatDescription());
 </script>
