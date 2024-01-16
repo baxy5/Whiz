@@ -112,15 +112,15 @@
 .submit {
   color: #fff;
   font-family: Space Grotesk;
-  font-size: 0.5625rem;
+  font-size: 0.75rem;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
   text-transform: uppercase;
   cursor: pointer;
 
-  width: 6.875rem;
-  height: 1.4375rem;
+  width: 8rem;
+  height: 2rem;
   flex-shrink: 0;
 
   border-radius: 4.375rem;
