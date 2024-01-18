@@ -9,7 +9,6 @@
       span-one="Együtt alkotunk."
       span-two="Együtt szárnyalunk."
       hero-text="Az /tonline /tjelenlét kulcsfontosságú. Képzelj csak el egy olyan /tweboldalt, amely pontosan tükrözi vállalkozásodat. /tÜgyfélbarát hozzáállásunk és a /t100%-os elégedettség elérése érdekében tett elkötelezettségünk tesz minket különlegessé."
-      showcase-image-one-src="~/assets/images/customer-ani.svg"
     />
     <Services />
     <Testimonials />
