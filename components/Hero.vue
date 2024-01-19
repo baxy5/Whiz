@@ -4,14 +4,16 @@
       <div
         :class="[
           {
-            'lg:pb-[8rem] xl:px-[8rem] xl:pb-[12rem] xxl:pb-[14rem]': !!showcaseImageOneSrc,
+            'lg:pb-[8rem] xl:px-[8rem] xl:pb-[12rem] xxl:pb-[14rem]':
+              !!showcaseImageOneSrc === true,
+            'xl:pb-[8rem]': !!showcaseImageOneSrc === false,
           },
-          'grid lg:grid-cols-2 pt-[7.5rem] pb-[3rem] px-[1.5rem] lg:pt-[10rem] lg:px-[7rem] xl:pb-[8rem] xl:pt-[13rem] xl:px-[12rem]',
+          'grid lg:grid-cols-2 pt-[7.5rem] pb-[3rem] px-[1.5rem] lg:pt-[10rem] lg:px-[7rem] xl:pt-[13rem] xl:px-[12rem]',
         ]"
       >
         <div>
-          <Indicator>
-            <div class="flex justify-between">
+          <div class="flex items-center">
+            <Indicator>
               <p>{{ indicatorText }}</p>
               <p class="flex gap-1 items-center">
                 {{ indicatorDetail }}
@@ -21,8 +23,8 @@
                   :alt="indicatorAlt"
                 />
               </p>
-            </div>
-          </Indicator>
+            </Indicator>
+          </div>
           <div
             v-if="showcaseImageOneSrc"
             class="flex justify-center items-center mt-16 sl:mb-16 md:mb-44 lg:mb-80 lg:hidden"

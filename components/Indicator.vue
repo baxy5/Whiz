@@ -6,7 +6,8 @@
 
 <style scoped>
 .indicator {
-  width: 14rem;
+  display: flex;
+  gap: 2rem;
   padding: 0.6rem 0.6rem 0.6rem 0.6rem;
 
   color: #fff;
@@ -23,13 +24,11 @@
 
 @media only screen and (min-width: 1024px) {
   .indicator {
-    width: 17rem;
     font-size: 0.85rem;
   }
 }
 @media only screen and (min-width: 1440px) {
   .indicator {
-    width: 19rem;
     font-size: 1rem;
   }
 }
