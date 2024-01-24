@@ -1,87 +1,38 @@
 <template>
   <section class="pt-8">
     <div class="flex flex-col gap-4 md:flex-row">
-      <Box box-type="dark" custom-class="px-[2.8rem] pt-[2rem] pb-[3rem]">
-        <img
-          class="w-10 h-10 lg:w-12 lg:h-12"
-          src="/icons/dev-icon.svg"
-          alt="Fejlesztési Icon - Webfejlesztés Szolgáltatás"
-        />
-        <h2
-          class="text-white text-[1.125rem] font-bold leading-normal pt-6 pb-[1.3rem] lg:text-[1.5rem]"
-        >
-          Webfejlesztés
-        </h2>
-        <p
-          class="text-[#B5B5B5] text-[0.8125rem] leading-normal font-normal pb-[1.8rem] lg:text-[1rem]"
-        >
-          Nem mindennapi weboldalakat készítünk modern, felhasználóbarát és
-          letisztult külsővel, kifejezetten az Ön igényeire szabva.
-        </p>
-        <div
-          class="flex gap-2 items-center text-white text-[0.875rem] leading-normal font-bold lg:text-[1rem]"
-        >
-          <a href="/dev">Tudj meg többet</a>
-          <img
-            src="/icons/arrow-right.svg"
-            alt="Arrow Right - Kattintható, hogy többet megtudj."
-          />
-        </div>
-      </Box>
-      <Box box-type="dark" custom-class="px-[2.8rem] pt-[2rem] pb-[3rem]">
-        <img
-          class="w-10 h-10 lg:w-12 lg:h-12"
-          src="/icons/design-icon.svg"
-          alt="Design Icon - Design Szolgáltatás" />
-        <h2
-          class="text-white text-[1.125rem] font-bold leading-normal pt-6 pb-[1.3rem] lg:text-[1.5rem]"
-        >
-          Arculattervezés
-        </h2>
-        <p
-          class="text-[#B5B5B5] text-[0.8125rem] leading-normal font-normal pb-[1.8rem] lg:text-[1rem]"
-        >
-          Varázsoljuk álmai arculatát valósággá - Megtervezzük vállalkozása
+      <InfoBox
+        box-type="dark"
+        image-src="/icons/dev-icon.svg"
+        image-alt="Fejlesztési Icon - Webfejlesztés Szolgáltatás"
+        title="Webfejlesztés"
+        desc="Nem mindennapi weboldalakat készítünk modern, felhasználóbarát és
+          letisztult külsővel, kifejezetten az Ön igényeire szabva."
+        add-text="Tudj meg többet"
+        add-href="/dev"
+      />
+      <InfoBox
+        box-type="dark"
+        image-src="/icons/design-icon.svg"
+        image-alt="Design Icon - Design Szolgáltatás"
+        title="Arculattervezés"
+        desc="Varázsoljuk álmai arculatát valósággá - Megtervezzük vállalkozása
           logóját és arculatát vagy akár arculati kézikönyvét az Ön elképzelései
-          alapján.
-        </p>
-        <div
-          class="flex gap-2 items-center text-white text-[0.875rem] leading-normal font-bold lg:text-[1rem]"
-        >
-          <a href="/design">Tudj meg többet</a>
-          <img
-            src="/icons/arrow-right.svg"
-            alt="Arrow Right - Kattintható, hogy többet megtudj."
-          /></div
-      ></Box>
-      <Box box-type="fancy" custom-class="px-[2.8rem] pt-[2rem] pb-[3rem]">
-        <img
-          class="w-10 h-10 lg:w-12 lg:h-12"
-          src="/icons/finance-icon.svg"
-          alt="Pénzügy Icon - Pénzügyi Szolgáltatás"
-        />
-        <h2
-          class="text-white text-[1.125rem] font-bold leading-normal pt-6 pb-[1.3rem] lg:text-[1.5rem]"
-        >
-          Pénzügyi tanácsadás
-        </h2>
-        <p
-          class="text-[#B5B5B5] text-[0.8125rem] leading-normal font-normal pb-[1.8rem] lg:text-[1rem]"
-        >
-          Varázsoljuk álmai arculatát valósággá - Megtervezzük vállalkozása
+          alapján."
+        add-text="Tudj meg többet"
+        add-href="/design"
+      />
+      <InfoBox
+        box-type="fancy"
+        image-src="/icons/finance-icon.svg"
+        image-alt="Pénzügy Icon - Pénzügyi Szolgáltatás"
+        title="Pénzügyi tanácsadás"
+        desc="Varázsoljuk álmai arculatát valósággá - Megtervezzük vállalkozása
           logóját és arculatát vagy akár arculati kézikönyvét az Ön elképzelései
-          alapján.
-        </p>
-        <div
-          class="flex gap-2 items-center text-white text-[0.875rem] leading-normal font-bold lg:text-[1rem]"
-        >
-          <a href="/finance">Tudj meg többet</a>
-          <img
-            src="/icons/arrow-right.svg"
-            alt="Arrow Right - Kattintható, hogy többet megtudj."
-          />
-        </div>
-      </Box>
+          alapján."
+        add-text="Tudj meg többet"
+        add-href="/finance"
+      />
     </div>
     <div class="mt-4 flex flex-col gap-4 lg:grid lg:grid-cols-3">
       <div class="idea-box relative px-[2.8rem] pt-[2rem] pb-[2rem] lg:order-2">

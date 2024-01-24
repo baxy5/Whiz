@@ -25,7 +25,7 @@
 
 <script setup lang="ts">
 defineProps<{
-  boxType: string;
+  boxType: "fancy" | "dark";
   imageSrc?: string;
   imageAlt?: string;
   title: string;

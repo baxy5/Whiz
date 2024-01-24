@@ -12,5 +12,6 @@
       showcase-image-two-src="/images/customer-ani.svg"
       showcase-image-three-src="/images/customer-doodle.svg"
     />
+    <DevServices />
   </main>
 </template>
