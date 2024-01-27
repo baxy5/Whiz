@@ -32,7 +32,17 @@ export default {
       xl: "1440px",
       xxl: "1920px",
     },
-    extend: {},
+    extend: {
+      keyframes: {
+        levitate: {
+          "0%, 100%": { transform: "translateY(-10px)" },
+          "50%": { transform: "translateY(10px)" },
+        },
+      },
+      animation: {
+        levitate: "levitate 2.5s ease-in-out infinite",
+      },
+    },
   },
   plugins: [],
 };
