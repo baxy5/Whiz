@@ -8,10 +8,11 @@
       span-one="Egyedülálló, stílusos."
       span-two="Webfejlesztés."
       hero-text="Legyen a /tweboldalad a /tsikered /tkulcsa! Professzionális webfejlesztésünk a brandedet emeli ki az online zajból, és /tsegít /ta /tcéljaid /telérésében.  "
-      showcase-image-one-src="/images/customer-elek.svg"
-      showcase-image-two-src="/images/customer-ani.svg"
-      showcase-image-three-src="/images/customer-doodle.svg"
+      showcase-image-one-src="/images/eniranyitok-mock.png"
+      showcase-image-two-src="/images/ani-mock.png"
+      showcase-image-three-src="/images/doodle-mock.png"
     />
     <DevServices />
+    <DevResponsivity />
   </main>
 </template>

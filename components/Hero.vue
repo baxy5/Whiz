@@ -27,19 +27,19 @@
           </div>
           <div
             v-if="showcaseImageOneSrc"
-            class="flex justify-center items-center mt-16 sl:mb-16 md:mb-44 lg:mb-80 lg:hidden"
+            class="flex justify-center items-center mt-6 sl:mb-16 md:mb-48 lg:hidden"
           >
             <div class="relative h-[15rem] w-full">
               <img
-                class="h-auto absolute top-0 -left-6 md:w-[30rem] md:left-28 lg:w-full lg:left-14"
+                class="h-auto absolute top-0 -left-6 md:w-[30rem] md:left-28 lg:w-full"
                 :src="showcaseImageOneSrc"
               />
               <img
-                class="h-auto absolute top-2 left-4 md:w-[30rem] md:top-8 md:left-44 lg:w-[40rem] lg:top-10 lg:left-36"
+                class="h-auto absolute top-8 left-4 md:w-[30rem] md:top-[70px] md:left-44"
                 :src="showcaseImageTwoSrc"
               />
               <img
-                class="h-auto absolute top-16 md:w-[30rem] md:top-32 md:left-36 lg:w-[40rem] lg:top-48 lg:left-32"
+                class="h-auto absolute top-24 md:w-[30rem] md:top-44 md:left-36"
                 :src="showcaseImageThreeSrc"
               />
             </div>
@@ -73,15 +73,15 @@
         >
           <div class="h-full w-full relative">
             <img
-              class="h-auto absolute top-0 xl:w-[35rem] xxl:w-[40rem]"
+              class="h-auto absolute -top-12 left-12 xl:w-full xl:-top-36 xxl:w-full xxl:-top-44"
               :src="showcaseImageOneSrc"
             />
             <img
-              class="h-auto absolute top-8 left-24 xl:w-[35rem] xxl:w-[40rem]"
+              class="h-auto absolute top-4 left-8 xl:w-full xl:-top-12 xxl:w-full"
               :src="showcaseImageTwoSrc"
             />
             <img
-              class="h-auto absolute top-44 left-12 xl:w-[35rem] xxl:w-[40rem]"
+              class="h-auto absolute top-32 left-8 xl:w-full xl:top-20 xxl:w-full"
               :src="showcaseImageThreeSrc"
             />
           </div>
