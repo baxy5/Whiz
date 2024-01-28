@@ -4,8 +4,8 @@
       <div class="px-4">
         <h3 class="title">Mi hiszünk abban, hogy bármi megoldható...</h3>
       </div>
-      <div class="relative pb-60">
-        <div class="box h-full w-max mt-8 px-2 py-4">
+      <div class="relative pb-24">
+        <div class="box h-full w-max mt-8 px-2 py-4 2sl:px-8">
           <ul>
             <li>
               <img src="/icons/list-dot.svg" alt="Lista Jelzés Icon" />
@@ -25,6 +25,10 @@
             </li>
             <li>
               <img src="/icons/list-dot.svg" alt="Lista Jelzés Icon" />
+              Egyedi CMS
+            </li>
+            <li>
+              <img src="/icons/list-dot.svg" alt="Lista Jelzés Icon" />
               Reszponzív webfejlesztés
             </li>
             <li>
@@ -37,12 +41,12 @@
             </li>
           </ul>
         </div>
-        <div class="pt-4 pl-14">
+        <div class="pt-4 pl-14 sl:pl-24 2sl:pl-36">
           <a class="button" href="#contact">Érdekel</a>
         </div>
         <img
-          class="absolute top-0"
-          src="/images/strapi-mock-mobile.png"
+          class="strapi-mock absolute h-auto w-[65rem] -top-24 sl:left-24 sl:-top-16 2sl:-top-24 2sl:w-[75rem] 2sl:left-44"
+          src="/images/strapi-mock.png"
           alt="Strapi Mock Image"
         />
       </div>
@@ -72,7 +76,7 @@
   </section>
 </template>
 
-<style>
+<style scoped>
 .title {
   font-family: "Space Grotesk";
   font-size: 1.25rem;
@@ -125,5 +129,24 @@ li {
   font-weight: 700;
   line-height: normal;
   text-transform: uppercase;
+}
+img {
+  max-width: none;
+}
+@media only screen and (min-width: 414px) {
+  .title {
+    font-size: 2rem;
+  }
+  li {
+    font-size: 1.25rem;
+  }
+}
+@media only screen and (min-width: 568px) {
+  .title {
+    font-size: 2.5rem;
+  }
+  li {
+    font-size: 1.5rem;
+  }
 }
 </style>
