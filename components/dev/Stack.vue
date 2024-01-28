@@ -135,10 +135,10 @@ img {
 }
 @media only screen and (min-width: 414px) {
   .title {
-    font-size: 1.75rem;
+    font-size: 2rem;
   }
   li {
-    font-size: 1.25rem;
+    font-size: 1rem;
   }
 }
 @media only screen and (min-width: 568px) {
