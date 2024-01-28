@@ -35,8 +35,9 @@
       />
     </div>
     <div class="mt-4 flex flex-col gap-4 lg:grid lg:grid-cols-3">
-      <div class="idea-box relative px-[2.8rem] pt-[2rem] pb-[2rem] lg:order-2">
-        <div class="idea-box-blur absolute top-0 left-0 w-full h-full"></div>
+      <GlassBox
+        custom-class="relative px-[2.8rem] pt-[2rem] pb-[2rem] lg:order-2"
+      >
         <h2
           class="text-white text-[1.125rem] font-bold leading-normal pb-[1.3rem] md:text-[1.25rem] lg:text-[1.5rem]"
         >
@@ -57,7 +58,7 @@
             alt="Arrow Right - Kattintható, hogy többet megtudj."
           />
         </div>
-      </div>
+      </GlassBox>
       <Box
         box-type="dark"
         custom-class="pt-[2.8rem] pl-[3rem] pr-[2.6rem] pb-[2.3rem] lg:order-1 lg:col-span-2"

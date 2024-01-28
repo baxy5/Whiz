@@ -14,5 +14,7 @@
     />
     <DevServices />
     <DevResponsivity />
+    <DevStack />
+    <Contact />
   </main>
 </template>

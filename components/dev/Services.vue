@@ -20,10 +20,9 @@
         add-href="#contact"
       />
       <div class="flex flex-col gap-4 lg:w-[80rem] xl:w-[120rem]">
-        <div
-          class="idea-box relative px-[2.8rem] pt-[2rem] pb-[2rem] lg:order-2"
+        <GlassBox
+          custom-class="relative px-[2.8rem] pt-[2rem] pb-[2rem] lg:order-2"
         >
-          <div class="idea-box-blur absolute top-0 left-0 w-full h-full"></div>
           <h2
             class="text-white text-[1.125rem] font-bold leading-normal pb-[1.3rem] md:text-[1.25rem] lg:text-[1.5rem]"
           >
@@ -44,12 +43,13 @@
               alt="Arrow Right - Kattintható, hogy többet megtudj."
             />
           </div>
-        </div>
-        <div
-          class="idea-box relative px-[2rem] pt-[2rem] pb-[2rem] lg:order-2"
+        </GlassBox>
+        <GlassBox
+          custom-class="relative px-[2rem] pt-[2rem] pb-[2rem] lg:order-2"
         >
-          <div class="idea-box-blur absolute top-0 left-0 w-full h-full"></div>
-          <div class="flex flex-col justify-center items-center gap-4 xl:flex-row">
+          <div
+            class="flex flex-col justify-center items-center gap-4 xl:flex-row"
+          >
             <img src="/icons/save-icon.svg" alt="" />
             <p
               class="text-white text-[0.9rem] font-medium leading-normal md:text-[1rem]"
@@ -59,7 +59,7 @@
               együttműködéshez.
             </p>
           </div>
-        </div>
+        </GlassBox>
       </div>
     </div>
   </section>
