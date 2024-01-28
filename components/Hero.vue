@@ -27,7 +27,7 @@
           </div>
           <div
             v-if="showcaseImageOneSrc"
-            class="flex justify-center items-center mt-6 sl:mb-16 md:mb-48 lg:hidden"
+            class="flex justify-center items-center mt-6 sl:mb-24 2sl:mb-56 md:mb-48 lg:hidden"
           >
             <div class="relative h-[15rem] w-full">
               <img
