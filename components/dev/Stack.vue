@@ -5,7 +5,10 @@
         <h3 class="title">Mi hiszünk abban, hogy bármi megoldható...</h3>
       </div>
       <div class="relative pb-24">
-        <div class="box h-full w-max mt-8 px-2 py-4 2sl:px-8">
+        <div class="box relative h-full w-max mt-8 px-2 py-4 2sl:px-8">
+          <div
+          class="absolute top-0 left-0 w-full h-full bg-black opacity-70 rounded-[1.25rem] -z-[9999]"
+        ></div>
           <ul>
             <li>
               <img src="/icons/list-dot.svg" alt="Lista Jelzés Icon" />
@@ -90,7 +93,10 @@
           />
         </div>
       </GlassBox>
-      <div class="box-big w-full col-span-2">
+      <div class="box-big relative w-full col-span-2">
+        <div
+          class="absolute top-0 left-0 w-full h-full bg-black opacity-70 rounded-[1.25rem] -z-[9999]"
+        ></div>
         <h3 class="title-big pb-8">
           Mi hiszünk abban, hogy bármi megoldható...
         </h3>
