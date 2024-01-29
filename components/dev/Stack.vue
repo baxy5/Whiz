@@ -31,14 +31,6 @@
               <img src="/icons/list-dot.svg" alt="Lista Jelzés Icon" />
               Reszponzív webfejlesztés
             </li>
-            <li>
-              <img src="/icons/list-dot.svg" alt="Lista Jelzés Icon" />
-              SEO
-            </li>
-            <li>
-              <img src="/icons/list-dot.svg" alt="Lista Jelzés Icon" />
-              Google Tag Manager
-            </li>
           </ul>
         </div>
         <div class="z-[9999] pt-4 pl-14 sl:pl-24 2sl:pl-36">
@@ -103,7 +95,9 @@
           Mi hiszünk abban, hogy bármi megoldható...
         </h3>
         <ul>
-          <div class="lg:flex lg:flex-col lg:gap-8 xl:flex xl:flex-row xl:gap-16">
+          <div
+            class="lg:flex lg:flex-col lg:gap-8 xl:flex xl:flex-row xl:gap-16"
+          >
             <div class="lg:grid lg:gap-8">
               <li>
                 <img src="/icons/list-dot.svg" alt="Lista Jelzés Icon" />
@@ -130,14 +124,6 @@
               <li>
                 <img src="/icons/list-dot.svg" alt="Lista Jelzés Icon" />
                 Reszponzív webfejlesztés
-              </li>
-              <li>
-                <img src="/icons/list-dot.svg" alt="Lista Jelzés Icon" />
-                SEO
-              </li>
-              <li>
-                <img src="/icons/list-dot.svg" alt="Lista Jelzés Icon" />
-                Google Tag Manager
               </li>
             </div>
           </div>
@@ -251,8 +237,8 @@ img {
     font-size: 1.5rem;
   }
 }
-@media only screen and (min-width: 1024px){
-  .title-big{
+@media only screen and (min-width: 1024px) {
+  .title-big {
     font-size: 2.5rem;
   }
 }
