@@ -11,5 +11,9 @@
       showcase-image-one-src="/images/varga-logo.png"
       showcase-image-two-src="/images/hok-logo.png"
     />
+    <DesignServices />
+    <DesignStack />
+    <DesignPrices />
+    <Contact />
   </main>
 </template>

@@ -8,7 +8,7 @@
               !!showcaseImageOneSrc === true,
             'xl:pb-[8rem]': !!showcaseImageOneSrc === false,
           },
-          'grid lg:grid-cols-2 pt-[7.5rem] pb-[3rem] px-[1.5rem] lg:pt-[10rem] lg:px-[7rem] xl:pt-[13rem] xl:px-[12rem]',
+          'grid lg:grid-cols-2 pt-[3.5rem] pb-[3rem] px-[1.5rem] 2sl:pt-[4.5rem] lg:pt-[10rem] lg:px-[7rem] xl:pt-[13rem] xl:px-[12rem]',
         ]"
       >
         <div>

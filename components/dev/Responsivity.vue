@@ -39,14 +39,14 @@
         <img
           class="hidden md:block"
           src="/icons/question-icon.svg"
-          alt="Question Icon - What is SEO?"
+          alt="Mi az a SEO?"
         />
         <div>
           <div class="flex gap-4 items-center pb-4">
             <img
               class="block md:hidden"
               src="/icons/question-icon.svg"
-              alt="Question Icon - What is SEO?"
+              alt="Mi az a SEO?"
               width="50"
               height="50"
             />
