@@ -4,19 +4,19 @@
       <div class="px-4">
         <h3 class="title">Mi hiszünk abban, hogy bármi megoldható...</h3>
       </div>
-      <div class="relative pb-24">
-        <div class="box relative h-full w-max mt-8 px-2 py-4 2sl:px-8">
+      <div class="relative pb-32">
+        <div class="box relative h-full w-max mt-8 px-3 py-4 2sl:px-8">
           <div
-          class="absolute top-0 left-0 w-full h-full bg-black opacity-70 rounded-[1.25rem] -z-[9999]"
-        ></div>
+            class="absolute top-0 left-0 w-full h-full bg-black opacity-70 rounded-[1.25rem] -z-[9999]"
+          ></div>
           <ul>
             <li>
               <img src="/icons/list-dot.svg" alt="Lista Jelzés Icon" />
-              Egyedi Web App Fejlesztés
+              Egyedi webalkalmazás fejlesztés
             </li>
             <li>
               <img src="/icons/list-dot.svg" alt="Lista Jelzés Icon" />
-              Webdesign és Fejlesztés
+              Webdesign és fejlesztés
             </li>
             <li>
               <img src="/icons/list-dot.svg" alt="Lista Jelzés Icon" />
@@ -24,11 +24,11 @@
             </li>
             <li>
               <img src="/icons/list-dot.svg" alt="Lista Jelzés Icon" />
-              Ecommerce Fejlesztés
+              Ecommerce fejlesztés
             </li>
             <li>
               <img src="/icons/list-dot.svg" alt="Lista Jelzés Icon" />
-              Egyedi CMS
+              Strapi integráció
             </li>
             <li>
               <img src="/icons/list-dot.svg" alt="Lista Jelzés Icon" />
@@ -36,11 +36,11 @@
             </li>
           </ul>
         </div>
-        <div class="z-[9999] pt-4 pl-14 sl:pl-24 2sl:pl-36">
+        <div class="z-[9999] pt-4 pl-20 sl:pl-24 2sl:pl-44">
           <a class="button" href="#contact">Érdekel</a>
         </div>
         <img
-          class="strapi-mock -z-[9999] absolute h-auto w-[65rem] -top-24 sl:left-24 sl:-top-16 2sl:-top-24 2sl:w-[75rem] 2sl:left-44"
+          class="strapi-mock -z-[9999] absolute h-auto w-[65rem] -top-24 left-16 sl:left-32 sl:-top-[4.5rem] 2sl:-top-24 2sl:w-[75rem] 2sl:left-56"
           src="/images/strapi-mock.png"
           alt="Strapi Mock Image"
         />
@@ -70,7 +70,7 @@
     </div>
     <div class="hidden relative md:flex md:gap-4 lg:pb-16 xl:pb-44">
       <GlassBox
-        custom-class="relative w-[25rem] h-[17rem] px-[2.8rem] pt-[2rem] pb-[2rem] lg:w-[30rem] lg:h-[19rem] xl:w-[35rem] xl:h-full"
+        custom-class="relative w-[25rem] h-[17rem] px-[2.8rem] pt-[2rem] pb-[2rem] lg:w-[30rem] lg:h-[19rem] xl:w-[45rem] xl:h-full"
       >
         <h2
           class="text-white text-[1.125rem] font-bold leading-normal pb-[1.3rem] md:text-[1.25rem] lg:text-[1.5rem]"
@@ -95,23 +95,23 @@
       </GlassBox>
       <div class="box-big relative w-full col-span-2">
         <div
-          class="absolute top-0 left-0 w-full h-full bg-black opacity-70 rounded-[1.25rem] -z-[9999]"
+          class="absolute top-0 left-0 w-full h-full bg-black opacity-90 rounded-[1.25rem] -z-[9999]"
         ></div>
         <h3 class="title-big pb-8">
           Mi hiszünk abban, hogy bármi megoldható...
         </h3>
         <ul>
           <div
-            class="lg:flex lg:flex-col lg:gap-8 xl:flex xl:flex-row xl:gap-16"
+            class="lg:flex lg:flex-col lg:gap-8 xl:flex xl:flex-col xl:gap-8"
           >
             <div class="lg:grid lg:gap-8">
               <li>
                 <img src="/icons/list-dot.svg" alt="Lista Jelzés Icon" />
-                Egyedi Web App Fejlesztés
+                Egyedi webalkalmazás fejlesztés
               </li>
               <li>
                 <img src="/icons/list-dot.svg" alt="Lista Jelzés Icon" />
-                Webdesign és Fejlesztés
+                Webdesign és fejlesztés
               </li>
               <li>
                 <img src="/icons/list-dot.svg" alt="Lista Jelzés Icon" />
@@ -119,13 +119,13 @@
               </li>
               <li>
                 <img src="/icons/list-dot.svg" alt="Lista Jelzés Icon" />
-                Ecommerce Fejlesztés
+                Ecommerce fejlesztés
               </li>
             </div>
-            <div class="lg:grid lg:gap-8">
+            <div class="lg:flex lg:flex-col lg:gap-8">
               <li>
                 <img src="/icons/list-dot.svg" alt="Lista Jelzés Icon" />
-                Egyedi CMS
+                Strapi integráció
               </li>
               <li>
                 <img src="/icons/list-dot.svg" alt="Lista Jelzés Icon" />
@@ -136,7 +136,7 @@
         </ul>
       </div>
       <img
-        class="strapi-mock -z-[9999] absolute h-auto w-[50rem] top-44 left-0 lg:w-[70rem] lg:top-32 lg:left-0 xl:-top-12"
+        class="strapi-mock -z-[9999] absolute h-auto w-[50rem] top-44 left-0 lg:w-[70rem] lg:top-10 xl:w-[90rem] xl:top-0"
         src="/images/strapi-mock.png"
         alt="Strapi Mock Image"
       />
@@ -175,7 +175,7 @@ li {
   gap: 0.5rem;
 
   font-family: "Space Grotesk";
-  font-size: 0.8125rem;
+  font-size: 0.9rem;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
@@ -246,6 +246,14 @@ img {
 @media only screen and (min-width: 1024px) {
   .title-big {
     font-size: 2.5rem;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .title-big {
+    font-size: 3.5rem;
+  }
+  li {
+    font-size: 2rem;
   }
 }
 </style>
