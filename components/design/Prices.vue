@@ -156,6 +156,7 @@ onNuxtReady(async () => {
     type: "x",
     bounds: "#prices-container",
     edgeResistance: 0.65,
+    autoScroll: 2,
   });
 
   mm.add("(max-width: 1023px)", () => {

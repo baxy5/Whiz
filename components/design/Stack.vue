@@ -50,18 +50,20 @@ import type { Box } from '#build/components';
           <img
             class="hidden md:block"
             src="/icons/design-qmark.svg"
-            alt="Mi az a SEO?"
+            alt="Logó tervezés"
           />
           <div>
             <div class="flex gap-4 items-center pb-4">
               <img
                 class="block md:hidden"
                 src="/icons/question-icon.svg"
-                alt="Question Icon - What is SEO?"
+                alt="Logó tervezés"
                 width="50"
                 height="50"
               />
-              <h3 class="title">Mit jelent a keresőmotor optimalizálás?</h3>
+              <h3 class="title">
+                Nincs ötleted a logóra de megvan egy elkézelés a fejedben?
+              </h3>
             </div>
             <p class="desc" v-html="formattedLogoSentence"></p>
           </div>
@@ -133,7 +135,7 @@ const formattedLogoSentence = computed(() => formatDescription(logoSentence));
 <style scoped>
 .title {
   color: #5e2bff;
-  font-size: 1.15rem;
+  font-size: 1.5rem;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
@@ -141,9 +143,9 @@ const formattedLogoSentence = computed(() => formatDescription(logoSentence));
 .desc {
   color: #fff;
   font-family: "Space Grotesk";
-  font-size: 0.95rem;
+  font-size: 1.125rem;
   font-style: normal;
   font-weight: 400;
-  line-height: normal;
+  line-height: 1.7rem;
 }
 </style>
