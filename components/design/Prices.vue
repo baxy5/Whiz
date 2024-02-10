@@ -72,7 +72,7 @@
           <Button anchor-href="#contact">érdekel</Button>
         </Box>
         <GlassBox
-          custom-class="flex flex-col justify-between items-center pt-[3rem] pb-[1rem] sl:px-4"
+          custom-class="w-full flex flex-col justify-between items-center pt-[3rem] pb-[1rem] px-4"
         >
           <h4
             class="title pb-5 text-center w-[20rem] sl:w-[22rem] md:w-[25rem]"

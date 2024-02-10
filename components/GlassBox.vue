@@ -1,6 +1,6 @@
 <template>
   <div :class="[customClass, 'idea-box']">
-    <div class="idea-box-blur absolute top-0 left-0 w-full h-full"></div>
+    <div class="idea-box-blur absolute top-0 left-0 w-max h-full"></div>
     <slot></slot>
   </div>
 </template>
