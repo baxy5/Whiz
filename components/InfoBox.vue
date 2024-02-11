@@ -1,5 +1,5 @@
 <template>
-  <Box :box-type="boxType" custom-class="px-[2.8rem] pt-[2rem] pb-[3rem]">
+  <Box :box-type="boxType" custom-class="w-full h-full px-[2.8rem] pt-[2rem] pb-[3rem]">
     <img class="w-10 h-10 lg:w-12 lg:h-12" :src="imageSrc" :alt="imageAlt" />
     <h2
       class="text-white text-[1.125rem] font-bold leading-normal pt-6 pb-[1.3rem] lg:text-[1.5rem]"

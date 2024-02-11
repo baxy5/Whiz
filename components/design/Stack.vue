@@ -1,7 +1,7 @@
 import type { Box } from '#build/components';
 <template>
   <section class="pt-8 h-full w-full">
-    <div class="block xl:hidden">
+    <div class="block lg:hidden">
       <div class="relative h-full w-full grid justify-center items-center mb-4">
         <img
           class=""
@@ -44,7 +44,7 @@ import type { Box } from '#build/components';
         </Box>
       </div>
     </div>
-    <div class="hidden xl:block">
+    <div class="hidden lg:block">
       <Box box-type="dark" custom-class="mt-4 px-4 py-4 lg:px-10 lg:py-10">
         <div class="flex items-center gap-8">
           <img

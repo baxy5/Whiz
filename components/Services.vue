@@ -1,38 +1,40 @@
 <template>
   <section class="pt-8">
     <div class="flex flex-col gap-4 md:flex-row">
-      <InfoBox
-        box-type="dark"
-        image-src="/icons/dev-icon.svg"
-        image-alt="Fejlesztési Icon - Webfejlesztés Szolgáltatás"
-        title="Webfejlesztés"
-        desc="Nem mindennapi weboldalakat készítünk modern, felhasználóbarát és
+      <ClientOnly>
+        <InfoBox
+          box-type="dark"
+          image-src="/icons/dev-icon.svg"
+          image-alt="Fejlesztési Icon - Webfejlesztés Szolgáltatás"
+          title="Webfejlesztés"
+          desc="Nem mindennapi weboldalakat készítünk modern, felhasználóbarát és
           letisztult külsővel, kifejezetten az Ön igényeire szabva."
-        add-text="Tudj meg többet"
-        add-href="/dev"
-      />
-      <InfoBox
-        box-type="dark"
-        image-src="/icons/design-icon.svg"
-        image-alt="Design Icon - Design Szolgáltatás"
-        title="Arculattervezés"
-        desc="Varázsoljuk álmai arculatát valósággá - Megtervezzük vállalkozása
+          add-text="Tudj meg többet"
+          add-href="/dev"
+        />
+        <InfoBox
+          box-type="dark"
+          image-src="/icons/design-icon.svg"
+          image-alt="Design Icon - Design Szolgáltatás"
+          title="Arculattervezés"
+          desc="Varázsoljuk álmai arculatát valósággá - Megtervezzük vállalkozása
           logóját és arculatát vagy akár arculati kézikönyvét az Ön elképzelései
           alapján."
-        add-text="Tudj meg többet"
-        add-href="/design"
-      />
-      <InfoBox
-        box-type="fancy"
-        image-src="/icons/finance-icon.svg"
-        image-alt="Pénzügy Icon - Pénzügyi Szolgáltatás"
-        title="Pénzügyi tanácsadás"
-        desc="Varázsoljuk álmai arculatát valósággá - Megtervezzük vállalkozása
+          add-text="Tudj meg többet"
+          add-href="/design"
+        />
+        <InfoBox
+          box-type="fancy"
+          image-src="/icons/finance-icon.svg"
+          image-alt="Pénzügy Icon - Pénzügyi Szolgáltatás"
+          title="Pénzügyi tanácsadás"
+          desc="Varázsoljuk álmai arculatát valósággá - Megtervezzük vállalkozása
           logóját és arculatát vagy akár arculati kézikönyvét az Ön elképzelései
           alapján."
-        add-text="Tudj meg többet"
-        add-href="/finance"
-      />
+          add-text="Tudj meg többet"
+          add-href="/finance"
+        />
+      </ClientOnly>
     </div>
     <div class="mt-4 flex flex-col gap-4 lg:grid lg:grid-cols-3">
       <GlassBox
