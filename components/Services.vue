@@ -1,6 +1,6 @@
 <template>
   <section class="pt-8">
-    <div class="flex flex-col gap-4 md:flex-row">
+    <div class="h-full grid gap-4 md:grid-cols-3">
       <ClientOnly>
         <InfoBox
           box-type="dark"
@@ -28,9 +28,7 @@
           image-src="/icons/finance-icon.svg"
           image-alt="Pénzügy Icon - Pénzügyi Szolgáltatás"
           title="Pénzügyi tanácsadás"
-          desc="Varázsoljuk álmai arculatát valósággá - Megtervezzük vállalkozása
-          logóját és arculatát vagy akár arculati kézikönyvét az Ön elképzelései
-          alapján."
+          desc="Álmaink megvalósításához útmutatásra van szükség. A pénzügyi jövőt építeni olykor kihívásokkal teli út. Mi itt vagyunk, hogy segítsünk. Lépjen előre az anyagi biztonság és a céljai felé vezető úton."
           add-text="Tudj meg többet"
           add-href="/finance"
         />
