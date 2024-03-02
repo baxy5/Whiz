@@ -92,7 +92,7 @@
           </li>
           <li class="flex items-center gap-2">
             <img src="/icons/list-dot.svg" alt="Lista Jelzés Icon" />JPG, PDF,
-            PNG, TIF, SVG, AI formátumú változat átadása
+            PNG, TIF, SVG, AI formátumok
           </li>
           <li class="flex items-center gap-2">
             <img src="/icons/list-dot.svg" alt="Lista Jelzés Icon" />
