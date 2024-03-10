@@ -16,3 +16,44 @@
     <Contact />
   </main>
 </template>
+
+<script setup lang="ts">
+useHead({
+  htmlAttrs: { lang: "hu" },
+  title: "Whiz - Együtt szárnyalunk. Ügyfeleink sikeréért.",
+  meta: [
+    {
+      name: "description",
+      content:
+        "Változtasd meg az online jelenlétedet velünk! Kiváló minőségű webfejlesztés és design tervezés mellett pénzügyi tanácsadás is vár rád. Hozd létre a tökéletes digitális élményt és növeld vállalkozásod sikerét egyedülálló szakértelmünk segítségével.",
+    },
+    {
+      property: "og:title",
+      content: "Whiz - Együtt szárnyalunk. Ügyfeleink sikeréért.",
+    },
+    {
+      property: "og:description",
+      content:
+        "Változtasd meg az online jelenlétedet velünk! Kiváló minőségű webfejlesztés és design tervezés mellett pénzügyi tanácsadás is vár rád. Hozd létre a tökéletes digitális élményt és növeld vállalkozásod sikerét egyedülálló szakértelmünk segítségével.",
+    },
+    { property: "og:type", content: "website" },
+    { property: "og:url", content: "https://www.whiz.hu/" },
+    { property: "og:locale", content: "hu_HU" },
+    { property: "og:image", content: "/whiz-logo.png" },
+  ],
+  link: [
+    {
+      rel: "icon",
+      type: "image/png",
+      sizes: "32x32",
+      href: "/whiz-logo.png",
+    },
+    {
+      rel: "icon",
+      type: "image/png",
+      sizes: "16x16",
+      href: "/whiz-logo.png",
+    },
+  ],
+});
+</script>
