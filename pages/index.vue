@@ -39,7 +39,7 @@ useHead({
     { property: "og:type", content: "website" },
     { property: "og:url", content: "https://www.whiz.hu/" },
     { property: "og:locale", content: "hu_HU" },
-    { property: "og:image", content: "/whiz-logo.png" },
+    { property: "og:image", content: "https://www.whiz.hu/whiz-logo.png" },
   ],
   link: [
     {
