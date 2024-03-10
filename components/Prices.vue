@@ -126,6 +126,26 @@
 <script setup>
 import { Vue3Lottie } from "vue3-lottie";
 import Handshake from "~/assets/lottie/handshake-lottie.json";
+import gsap from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+import { Draggable } from "gsap/Draggable";
+gsap.registerPlugin(ScrollTrigger, Draggable);
+
+onNuxtReady(async () => {
+  let mm = gsap.matchMedia();
+  let draggable = Draggable.create("#prices", {
+    type: "x",
+    bounds: "#prices-container",
+    edgeResistance: 0.65,
+  });
+
+  mm.add("(max-width: 1023px)", () => {
+    draggable[0].enable();
+  });
+  mm.add("(min-width: 1024px)", () => {
+    draggable[0].disable();
+  });
+});
 </script>
 <style scoped>
 .title {
