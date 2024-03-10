@@ -4,7 +4,8 @@
     :type="type"
     :placeholder="placeholder"
     :name="name"
-    :value="value"
+    :value="modelValue"
+    @input="updateModelValue($event)"
     required
     autocomplete="off"
   />
@@ -17,8 +18,17 @@ defineProps<{
   type: InputTypeHTMLAttribute;
   placeholder: string;
   customClass?: string;
-  value?: string;
+  modelValue?: string;
 }>();
+
+const emits = defineEmits(["update:modelValue"]);
+
+const updateModelValue = (event: Event) => {
+  const target = event.target as HTMLInputElement;
+  if (target) {
+    emits("update:modelValue", target.value);
+  }
+};
 </script>
 <style scoped>
 .input {
