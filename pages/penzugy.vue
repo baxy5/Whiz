@@ -14,3 +14,43 @@
     <Contact />
   </main>
 </template>
+<script setup>
+useHead({
+  htmlAttrs: { lang: "hu" },
+  title: "Whiz - Együtt szárnyalunk. Ügyfeleink sikeréért.",
+  meta: [
+    {
+      name: "description",
+      content:
+        "Fedezze fel a gazdasági siker kulcsait pénzügyi tanácsadásunkkal! Szakértő csapatunk segít az optimális befektetési stratégiák kialakításában és pénzügyi célok elérésében. Teremtse meg jövőjét biztonságos pénzügyi alapokon.",
+    },
+    {
+      property: "og:title",
+      content: "Whiz - Együtt szárnyalunk. Ügyfeleink sikeréért.",
+    },
+    {
+      property: "og:description",
+      content:
+        "Fedezze fel a gazdasági siker kulcsait pénzügyi tanácsadásunkkal! Szakértő csapatunk segít az optimális befektetési stratégiák kialakításában és pénzügyi célok elérésében. Teremtse meg jövőjét biztonságos pénzügyi alapokon.",
+    },
+    { property: "og:type", content: "website" },
+    { property: "og:url", content: "https://www.whiz.hu/" },
+    { property: "og:locale", content: "hu_HU" },
+    { property: "og:image", content: "https://www.whiz.hu/whiz-logo.png" },
+  ],
+  link: [
+    {
+      rel: "icon",
+      type: "image/png",
+      sizes: "32x32",
+      href: "/whiz-logo.png",
+    },
+    {
+      rel: "icon",
+      type: "image/png",
+      sizes: "16x16",
+      href: "/whiz-logo.png",
+    },
+  ],
+});
+</script>
