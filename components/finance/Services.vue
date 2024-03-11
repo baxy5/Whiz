@@ -75,7 +75,7 @@
           <div
             class="flex gap-2 items-center text-white text-[0.875rem] leading-normal font-bold lg:text-[1rem]"
           >
-            <a href="tel:+36308754438">Hívjon most</a>
+            <a href="tel:+36302296231">Hívjon most</a>
             <img
               src="/icons/arrow-right.svg"
               alt="Arrow Right - Kattintható, hogy többet megtudj."
@@ -119,7 +119,7 @@
         <div
           class="flex gap-2 items-center text-white text-[0.875rem] leading-normal font-bold lg:text-[1rem]"
         >
-          <a href="tel:+36308754438">Hívjon most</a>
+          <a href="tel:+36302296231">Hívjon most</a>
           <img
             src="/icons/arrow-right.svg"
             alt="Arrow Right - Kattintható, hogy többet megtudj."

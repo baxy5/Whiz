@@ -13,32 +13,38 @@
       </Box>
       <Box box-type="dark" custom-class="p-8">
         <h3 class="title">
-          Szalai Éva - <span class="font-light">Webfejleszés</span>
+          Suba Attila - <span class="font-light">Webfejleszés</span>
         </h3>
         <p class="parag w-[17rem] md:w-[19rem] lg:w-[30rem]">
-          “Fiatalok, okosak, intelligensek, kultúráltak. Nekem ez fontos. Tenni
-          akarnak és ötletelnek. Határidőre dolgoznak. Hozzák a trendet, a
-          fiatalos gondolkodást, a lendületet. Szívből ajánlom Őket.” -
+          “Fiatalos csapatuk rendkívül precíz és ügyfélcentrikus, mindig
+          figyelnek az igényeinkre. Öröm volt velük dolgozni, és biztosan
+          ajánljuk őket mindenkinek, aki minőségi szolgáltatásra vágyik!” -
         </p>
       </Box>
       <Box box-type="fancy" custom-class="p-8">
         <h3 class="title">
-          Szalai Éva - <span class="font-light">Webfejleszés</span>
+          Nagy Péter - <span class="font-light">Webfejleszés</span>
         </h3>
         <p class="parag w-[17rem] md:w-[19rem] lg:w-[30rem]">
-          “Fiatalok, okosak, intelligensek, kultúráltak. Nekem ez fontos. Tenni
-          akarnak és ötletelnek. Határidőre dolgoznak. Hozzák a trendet, a
-          fiatalos gondolkodást, a lendületet. Szívből ajánlom Őket.” -
+          “A csapatukkal való együttműködés egy igazi élmény volt számunkra! A
+          webfejlesztésben és arculattervezésben mutatott szaktudásuk lenyűgöző,
+          webdesignjük pedig modern és professzionális. Biztosan továbbra is
+          velük dolgozunk.” -
         </p>
       </Box>
       <Box box-type="dark" custom-class="p-8">
         <h3 class="title">
-          Szalai Éva - <span class="font-light">Webfejleszés</span>
+          Varga Alexandra - <span class="font-light">Design</span>
         </h3>
         <p class="parag w-[17rem] md:w-[19rem] lg:w-[30rem]">
-          “Fiatalok, okosak, intelligensek, kultúráltak. Nekem ez fontos. Tenni
-          akarnak és ötletelnek. Határidőre dolgoznak. Hozzák a trendet, a
-          fiatalos gondolkodást, a lendületet. Szívből ajánlom Őket.” -
+          “Nagyon különleges logót szerettem volna. Jó pár tervezőt végig
+          jártam, mindtől ugyan azt a választ kaptam hogy ezt nem tudják nekem
+          megvalósítani nézzek mást,egyszerűbbet. Mindezek után tettem még egy
+          próbát Kiss Csabánál. Megbeszéltük mit hogy szeretnék, el is készült a
+          vázlatokkal. Kellemes meglepetésemre már a vázlat felűlmúlta az
+          elképzeléseimet. Teljes mértékben elégedett vagyok. Mindenkinek csak
+          ajánlani tudom, ha igazán egyedi logót szeretnétek keressétek bátran.
+          ” -
         </p>
       </Box>
       <Box box-type="fancy" custom-class="p-8">

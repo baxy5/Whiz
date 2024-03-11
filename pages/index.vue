@@ -39,20 +39,20 @@ useHead({
     { property: "og:type", content: "website" },
     { property: "og:url", content: "https://www.whiz.hu/" },
     { property: "og:locale", content: "hu_HU" },
-    { property: "og:image", content: "https://www.whiz.hu/whiz-logo.png" },
+    { property: "og:image", content: "https://www.whiz.hu/whiz-og-main.png" },
   ],
   link: [
     {
       rel: "icon",
       type: "image/png",
       sizes: "32x32",
-      href: "/whiz-logo.png",
+      href: "/favicon-32.png",
     },
     {
       rel: "icon",
       type: "image/png",
       sizes: "16x16",
-      href: "/whiz-logo.png",
+      href: "/favicon-16.png",
     },
   ],
 });
