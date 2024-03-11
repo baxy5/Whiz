@@ -39,7 +39,7 @@
             <a href="/">Főoldal</a>
           </li>
           <li>
-            <a href="/dev">Dev</a>
+            <a href="/dev">Web</a>
           </li>
           <li>
             <a href="/design">Design</a>

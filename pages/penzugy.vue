@@ -17,7 +17,7 @@
 <script setup>
 useHead({
   htmlAttrs: { lang: "hu" },
-  title: "Whiz - Együtt szárnyalunk. Ügyfeleink sikeréért.",
+  title: "Whiz - Együtt szárnyalunk, ügyfeleink sikeréért.",
   meta: [
     {
       name: "description",
@@ -26,7 +26,7 @@ useHead({
     },
     {
       property: "og:title",
-      content: "Whiz - Együtt szárnyalunk. Ügyfeleink sikeréért.",
+      content: "Whiz - Együtt szárnyalunk, ügyfeleink sikeréért.",
     },
     {
       property: "og:description",
