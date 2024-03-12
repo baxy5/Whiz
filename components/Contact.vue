@@ -50,7 +50,8 @@
               <p>Bakos János</p>
               <p>06 70 318 8418</p>
             </div>
-            <p class="contact-info">dev@whiz.hu</p>
+            <!-- <p class="contact-info">dev@whiz.hu</p> -->
+            <p class="contact-info">info@whiz.hu</p>
           </div>
           <div>
             <h5 class="contact-title pb-[0.7rem]">Pénzügy</h5>
@@ -58,7 +59,8 @@
               <p>Tekes-Szabó Krisztina</p>
               <p>06 30 229 6231</p>
             </div>
-            <p class="contact-info">finance@whiz.hu</p>
+            <!-- <p class="contact-info">finance@whiz.hu</p> -->
+            <p class="contact-info">info@whiz.hu</p>
           </div>
         </div>
 
