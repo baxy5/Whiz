@@ -83,7 +83,7 @@
   </footer>
 </template>
 <script setup>
-import { ref } from "vue";
+/* import { ref } from "vue";
 import emailjs from "@emailjs/browser";
 const config = useRuntimeConfig();
 
@@ -110,7 +110,7 @@ function sendEmail() {
         alert("Üzenet küldés sikertelen!");
       }
     );
-}
+} */
 </script>
 <style scoped>
 .idea-box {
