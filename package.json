@@ -20,6 +20,7 @@
   },
   "dependencies": {
     "@emailjs/browser": "^4.2.0",
+    "@gtm-support/vue-gtm": "^2.2.0",
     "gsap": "3.12.4",
     "vue3-lottie": "^3.2.0"
   }
