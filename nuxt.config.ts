@@ -4,9 +4,9 @@ export default defineNuxtConfig({
 
   runtimeConfig: {
     public: {
-      EMAIL_SERVICE_ID: "service_ydv629z",
-      EMAIL_TEMPLATE_ID: "template_0fhsncf",
-      EMAIL_PUBLIC_KEY: "Zk0eL7zWfyRHDaIV7",
+      EMAIL_SERVICE_ID: "service_kn49xyk",
+      EMAIL_TEMPLATE_ID: "template_97d1nf5",
+      EMAIL_PUBLIC_KEY: "BxnGjPiCOCfZXuHP_",
     },
   },
 

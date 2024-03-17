@@ -5,7 +5,11 @@
       custom-class="relative flex flex-col items-center mb-[1rem] pt-[2.75rem] md:pt-[4rem]"
     >
       <h4 class="title pb-[2.5rem]">Kapcsolat</h4>
-      <!-- <form
+      <div v-if="hideContact">
+        <h1>Email sikeresen elküldve!</h1>
+      </div>
+      <form
+        v-if="!hideContact"
         class="w-full flex flex-col items-center px-[2rem] md:px-[10rem] lg:w-[700px]"
         @submit.prevent="sendEmail"
         ref="form"
@@ -26,16 +30,18 @@
         />
         <textarea
           class="textarea mb-[1.25rem]"
-          name="message"
+          name="user_message"
           placeholder="Üzenet"
           v-model="user_message"
         />
         <input class="submit" type="submit" value="Küld" />
         <p class="adatkezeles mt-[1.25rem]">
           A “KÜLD” gomb megnyomásával elfogadja az
-          <a>adatkezelési tájékoztatót</a>.
+          <a href="/nyilatkozat/adatkezelesi-nyilatkozat.pdf" download
+            >adatkezelési tájékoztatót</a
+          >.
         </p>
-      </form> -->
+      </form>
 
       <div class="idea-box relative w-full mt-16 py-[4rem]">
         <div class="idea-box-blur absolute top-0 left-0 w-full h-full"></div>
@@ -50,7 +56,6 @@
               <p>Bakos János</p>
               <p>06 70 318 8418</p>
             </div>
-            <!-- <p class="contact-info">dev@whiz.hu</p> -->
             <p class="contact-info">info@whiz.hu</p>
           </div>
           <div>
@@ -59,7 +64,6 @@
               <p>Tekes-Szabó Krisztina</p>
               <p>06 30 229 6231</p>
             </div>
-            <!-- <p class="contact-info">finance@whiz.hu</p> -->
             <p class="contact-info">info@whiz.hu</p>
           </div>
         </div>
@@ -83,25 +87,31 @@
   </footer>
 </template>
 <script setup>
-/* import { ref } from "vue";
+import { ref } from "vue";
 import emailjs from "@emailjs/browser";
 const config = useRuntimeConfig();
 
 const form = ref();
-const user_name = ref("");
-const user_email = ref("");
-const user_message = ref("");
+let user_name = ref("");
+let user_email = ref("");
+let user_message = ref("");
+
+let hideContact = false;
 
 function sendEmail() {
   emailjs
-    .sendForm(config.EMAIL_SERVICE_ID, config.EMAIL_TEMPLATE_ID, form.value, {
-      publicKey: "Zk0eL7zWfyRHDaIV7",
+    .sendForm("service_kn49xyk", "template_97d1nf5", form.value, {
+      publicKey: "BxnGjPiCOCfZXuHP_",
     })
     .then(
       () => {
         user_email = "";
         user_name = "";
         user_message = "";
+        hideContact = true;
+        setTimeout(() => {
+          hideContact = false;
+        }, 4000);
       },
       (error) => {
         user_email = "";
@@ -110,7 +120,7 @@ function sendEmail() {
         alert("Üzenet küldés sikertelen!");
       }
     );
-} */
+}
 </script>
 <style scoped>
 .idea-box {
