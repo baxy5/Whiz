@@ -108,10 +108,7 @@ function sendEmail() {
         user_email = "";
         user_name = "";
         user_message = "";
-        hideContact = true;
-        setTimeout(() => {
-          hideContact = false;
-        }, 4000);
+        alert("Üzenet sikeresen elküldve!");
       },
       (error) => {
         user_email = "";
