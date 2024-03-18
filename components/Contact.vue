@@ -5,11 +5,8 @@
       custom-class="relative flex flex-col items-center mb-[1rem] pt-[2.75rem] md:pt-[4rem]"
     >
       <h4 class="title pb-[2.5rem]">Kapcsolat</h4>
-      <div v-if="hideContact">
-        <h1>Email sikeresen elküldve!</h1>
-      </div>
+
       <form
-        v-if="!hideContact"
         class="w-full flex flex-col items-center px-[2rem] md:px-[10rem] lg:w-[700px]"
         @submit.prevent="sendEmail"
         ref="form"
@@ -18,21 +15,23 @@
           type="text"
           name="user_name"
           placeholder="Név"
-          custom-class="rounded-[4.375rem] mb-[1rem]"
-          v-model="user_name"
+          custom-class="rounded-[4.375rem] my-[0.25rem]"
+          v-model="name"
         />
+        <span class="error">{{ errors.name }}</span>
         <Input
           type="email"
           name="user_email"
           placeholder="Email"
-          custom-class="rounded-[4.375rem] mb-[1.25rem]"
-          v-model="user_email"
+          custom-class="rounded-[4.375rem] mb-[0.25rem] mt-[1.25rem]"
+          v-model="email"
         />
+        <span class="error">{{ errors.email }}</span>
         <textarea
-          class="textarea mb-[1.25rem]"
+          class="textarea my-[1.25rem]"
           name="user_message"
           placeholder="Üzenet"
-          v-model="user_message"
+          v-model="message"
         />
         <input class="submit" type="submit" value="Küld" />
         <p class="adatkezeles mt-[1.25rem]">
@@ -88,38 +87,72 @@
 </template>
 <script setup>
 import { ref } from "vue";
+import { useForm, useField } from "vee-validate";
+import { z } from "zod";
+import { toTypedSchema } from "@vee-validate/zod";
 import emailjs from "@emailjs/browser";
 const config = useRuntimeConfig();
+const { $swal } = useNuxtApp();
 
 const form = ref();
-let user_name = ref("");
-let user_email = ref("");
-let user_message = ref("");
 
-let hideContact = false;
+// Validation
+const validationSchema = toTypedSchema(
+  z.object({
+    email: z
+      .string()
+      .min(1, "Ezt a mezőt kötelező kitölteni!")
+      .email("Az e-mail címnek érvényesnek kell lennie!"),
 
-function sendEmail() {
+    name: z.string().min(4, "Ezt a mezőt kötelező kitölteni!"),
+  })
+);
+
+const { handleSubmit, errors, resetForm } = useForm({ validationSchema });
+
+const { value: email } = useField("email");
+const { value: name } = useField("name");
+const { value: message } = useField("message");
+
+// handle submit
+const sendEmail = handleSubmit(() => {
   emailjs
     .sendForm("service_kn49xyk", "template_97d1nf5", form.value, {
       publicKey: "BxnGjPiCOCfZXuHP_",
     })
     .then(
       () => {
-        user_email = "";
-        user_name = "";
-        user_message = "";
-        alert("Üzenet sikeresen elküldve!");
+        resetForm();
+        $swal.fire({
+          title: "Siker!",
+          text: "Sikeresen elküldted az üzenetet!",
+          icon: "success",
+          color: "#5f2bfd",
+          backdrop: true,
+          timer: 2000,
+          timerProgressBar: true,
+        });
       },
       (error) => {
-        user_email = "";
-        user_name = "";
-        user_message = "";
-        alert("Üzenet küldés sikertelen!");
+        resetForm();
+        $swal.fire({
+          title: "Hiba!",
+          text: "Üzenet küldés sikertelen! Ellenőrizd az internet elérésed!",
+          icon: "error",
+          color: "#5f2bfd",
+          backdrop: true,
+          timer: 5000,
+          timerProgressBar: true,
+        });
       }
     );
-}
+});
 </script>
 <style scoped>
+.error {
+  color: red;
+}
+
 .idea-box {
   background: linear-gradient(
     72deg,
