@@ -35,7 +35,7 @@
         />
         <input class="submit" type="submit" value="Küld" />
         <p class="adatkezeles mt-[1.25rem]">
-          A “KÜLD” gomb megnyomásával elfogadja az
+          A “KÜLD” gomb megnyomásával tudomásul vette és elfogadta az
           <a href="/nyilatkozat/adatkezelesi-nyilatkozat.pdf" download
             >adatkezelési tájékoztatót</a
           >.
