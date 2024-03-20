@@ -25,6 +25,27 @@ useHead({
         "Fedezze fel a gazdasági siker kulcsait pénzügyi tanácsadásunkkal! Szakértő csapatunk segít az optimális befektetési stratégiák kialakításában és pénzügyi célok elérésében. Teremtse meg jövőjét biztonságos pénzügyi alapokon.",
     },
     {
+      name: "keywords",
+      content:
+        "webfejlesztés, arculattervezés, pénzügyi tanácsadás, kecskemét, kecskemét webfejlesztés, kecskemét arculat tervezés, kecskemét pénzügyi tanácsadás, kecskemét weboldal, weboldal, design, kecskemét webdesign, kecskemét weboldal készítés, kecskemét webdesign készítés, kecskemét pénzügy, kecskemét tanácsadás",
+    },
+    {
+      name: "viewport",
+      content: "width=device-width, initial-scale=1.0",
+    },
+    {
+      name: "AUTHORS",
+      content: "Whiz",
+    },
+    {
+      name: "robots",
+      content: "index, follow",
+    },
+    {
+      name: "theme-color",
+      content: "#5e2bff",
+    },
+    {
       property: "og:title",
       content: "Whiz - Együtt szárnyalunk, ügyfeleink sikeréért.",
     },

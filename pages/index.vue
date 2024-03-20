@@ -1,18 +1,4 @@
 <template>
-  <!-- <head>
-    <meta name="robots" content="index, follow" />
-    <meta name="AUTHORS" content="whiz.hu" />
-    <meta name="theme-color" content="#5e2bff" />
-    <meta charSet="UTF-8" />
-    <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" href="/favicon-32.png" />
-    <link rel="apple-touch-icon" href="/favicon-32.png" />
-    <meta
-      name="keywords"
-      content="webfejlesztés, arculattervezés, pénzügyi tanácsadás, kecskemét, kecskemét webfejlesztés, kecskemét arculat tervezés, kecskemét pénzügyi tanácsadás, kecskemét weboldal, weboldal, design, kecskemét webdesign, kecskemét weboldal készítés, kecskemét webdesign készítés, kecskemét pénzügy, kecskemét tanácsadás"
-    />
-  </head> -->
   <main class="px-3 xxl:container overflow-hidden">
     <!-- <CookieConsent /> -->
     <Navbar />
@@ -41,6 +27,27 @@ useHead({
       name: "description",
       content:
         "Változtasd meg az online jelenlétedet velünk! Kiváló minőségű webfejlesztés és design tervezés mellett pénzügyi tanácsadás is vár rád. Hozd létre a tökéletes digitális élményt és növeld vállalkozásod sikerét egyedülálló szakértelmünk segítségével.",
+    },
+    {
+      name: "keywords",
+      content:
+        "webfejlesztés, arculattervezés, pénzügyi tanácsadás, kecskemét, kecskemét webfejlesztés, kecskemét arculat tervezés, kecskemét pénzügyi tanácsadás, kecskemét weboldal, weboldal, design, kecskemét webdesign, kecskemét weboldal készítés, kecskemét webdesign készítés, kecskemét pénzügy, kecskemét tanácsadás",
+    },
+    {
+      name: "viewport",
+      content: "width=device-width, initial-scale=1.0",
+    },
+    {
+      name: "AUTHORS",
+      content: "Whiz",
+    },
+    {
+      name: "robots",
+      content: "index, follow",
+    },
+    {
+      name: "theme-color",
+      content: "#5e2bff",
     },
     {
       property: "og:title",

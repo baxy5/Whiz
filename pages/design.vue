@@ -28,6 +28,27 @@ useHead({
         "Egyedi és professzionális arculat tervezés, névjegykártya és webdesign szolgáltatás. Legyen kiemelkedő és emlékezetes már első pillantásra. Szakértő csapatunk segít álmaid vizuális megjelenését valóra váltani. Fedezd fel, hogyan lendülhet fel a vállalkozásod stílusos és hatékony design segítségével.",
     },
     {
+      name: "keywords",
+      content:
+        "webfejlesztés, arculattervezés, pénzügyi tanácsadás, kecskemét, kecskemét webfejlesztés, kecskemét arculat tervezés, kecskemét pénzügyi tanácsadás, kecskemét weboldal, weboldal, design, kecskemét webdesign, kecskemét weboldal készítés, kecskemét webdesign készítés, kecskemét pénzügy, kecskemét tanácsadás",
+    },
+    {
+      name: "viewport",
+      content: "width=device-width, initial-scale=1.0",
+    },
+    {
+      name: "AUTHORS",
+      content: "Whiz",
+    },
+    {
+      name: "robots",
+      content: "index, follow",
+    },
+    {
+      name: "theme-color",
+      content: "#5e2bff",
+    },
+    {
       property: "og:title",
       content: "Whiz - Együtt szárnyalunk, ügyfeleink sikeréért.",
     },
