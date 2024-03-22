@@ -1,5 +1,5 @@
 <template>
-  <div v-if="isHidden" class="container">
+  <div class="container" :class="{ hidden: isHidden }">
     <h1 class="title">Sütiket használunk</h1>
     <p class="desc">
       Ez a weboldal sütiket használ annak érdekében, hogy a legjobb élményt
@@ -111,8 +111,8 @@ const accept = () => {
 @media only screen and (min-width: 1024px) {
   .container {
     bottom: 20px;
-    right: 0.75rem;
-    left: auto;
+    right: 0px;
+    left: 0px;
     z-index: 99999;
     width: 40%;
   }
