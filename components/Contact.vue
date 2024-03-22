@@ -36,7 +36,7 @@
         <input class="submit" type="submit" value="Küld" />
         <p class="adatkezeles mt-[1.25rem]">
           A “KÜLD” gomb megnyomásával tudomásul vette és elfogadta az
-          <a href="/nyilatkozat/adatkezelesi-nyilatkozat.pdf" download
+          <a href="/nyilatkozat/adatkezelesi-nyilatkozat.pdf" target="_blank"
             >adatkezelési tájékoztatót</a
           >.
         </p>
