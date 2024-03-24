@@ -32,7 +32,7 @@ useHead({
     {
       name: "description",
       content:
-        "Kiemelkedő webfejlesztési, arculattervezési és pénzügyi támogatás szolgáltatásokat nyújtunk. Növelje online jelenlétét szakértelmünkkel. Lépjen velünk kapcsolatba még ma!",
+        "Kiemelkedő webfejlesztési, arculattervezési és pénzügyi tanácsadás szolgáltatásokat nyújtunk. Növelje online jelenlétét szakértelmünkkel. Lépjen velünk kapcsolatba még ma!",
     },
     {
       name: "keywords",
@@ -62,7 +62,7 @@ useHead({
     {
       property: "og:description",
       content:
-        "Kiemelkedő webfejlesztési, arculattervezési és pénzügyi támogatás szolgáltatásokat nyújtunk. Növelje online jelenlétét szakértelmünkkel. Lépjen velünk kapcsolatba még ma!",
+        "Kiemelkedő webfejlesztési, arculattervezési és pénzügyi tanácsadás szolgáltatásokat nyújtunk. Növelje online jelenlétét szakértelmünkkel. Lépjen velünk kapcsolatba még ma!",
     },
     { property: "og:type", content: "website" },
     { property: "og:url", content: "https://www.whiz.hu/" },
