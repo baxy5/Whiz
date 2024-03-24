@@ -32,12 +32,12 @@ useHead({
     {
       name: "description",
       content:
-        "Változtasd meg az online jelenlétedet velünk! Kiváló minőségű webfejlesztés és design tervezés mellett pénzügyi tanácsadás is vár rád. Hozd létre a tökéletes digitális élményt és növeld vállalkozásod sikerét egyedülálló szakértelmünk segítségével.",
+        "Kiemelkedő webfejlesztési, arculattervezési és pénzügyi támogatás szolgáltatásokat nyújtunk. Növelje online jelenlétét szakértelmünkkel. Lépjen velünk kapcsolatba még ma!",
     },
     {
       name: "keywords",
       content:
-        "webfejlesztés, arculattervezés, pénzügyi tanácsadás, kecskemét, kecskemét webfejlesztés, kecskemét arculat tervezés, kecskemét pénzügyi tanácsadás, kecskemét weboldal, weboldal, weboldal készítés, design készítés, arculat készítés , kecskemét webdesign, kecskemét weboldal készítés, kecskemét webdesign készítés, kecskemét pénzügy, kecskemét tanácsadás, pénzügyi terv készítés, kecsemét pénzügyi terv készítés",
+        "kecskemét webfejlesztes, kecskemét webfejlsztés, kecskemet, kecskemet weboldal, kecskemet weboldal keszites ,webfejlesztés, arculattervezés, pénzügyi tanácsadás, kecskemét, kecskemét webfejlesztés, kecskemét arculat tervezés, kecskemét pénzügyi tanácsadás, kecskemét weboldal, weboldal, weboldal készítés, design készítés, arculat készítés , kecskemét webdesign, kecskemét weboldal készítés, kecskemét webdesign készítés, kecskemét pénzügy, kecskemét tanácsadás, pénzügyi terv készítés, kecsemét pénzügyi terv készítés",
     },
     {
       name: "viewport",
@@ -62,7 +62,7 @@ useHead({
     {
       property: "og:description",
       content:
-        "Változtasd meg az online jelenlétedet velünk! Kiváló minőségű webfejlesztés és design tervezés mellett pénzügyi tanácsadás is vár rád. Hozd létre a tökéletes digitális élményt és növeld vállalkozásod sikerét egyedülálló szakértelmünk segítségével.",
+        "Kiemelkedő webfejlesztési, arculattervezési és pénzügyi támogatás szolgáltatásokat nyújtunk. Növelje online jelenlétét szakértelmünkkel. Lépjen velünk kapcsolatba még ma!",
     },
     { property: "og:type", content: "website" },
     { property: "og:url", content: "https://www.whiz.hu/" },
