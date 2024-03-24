@@ -17,7 +17,13 @@
 <script setup>
 useHead({
   htmlAttrs: { lang: "hu" },
-  title: "Whiz - Együtt szárnyalunk, ügyfeleink sikeréért.",
+  title: "Whiz - Pénzügyi tanácsadás",
+  script: [
+    {
+      src: `https://www.googletagmanager.com/gtag/js?id=G-V2KJCV5ZPQ`,
+      async: true,
+    },
+  ],
   meta: [
     {
       name: "description",

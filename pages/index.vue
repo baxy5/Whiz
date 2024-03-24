@@ -22,6 +22,12 @@
 useHead({
   htmlAttrs: { lang: "hu" },
   title: "Whiz - Együtt szárnyalunk, ügyfeleink sikeréért.",
+  script: [
+    {
+      src: `https://www.googletagmanager.com/gtag/js?id=G-V2KJCV5ZPQ`,
+      async: true,
+    },
+  ],
   meta: [
     {
       name: "description",
