@@ -33,7 +33,12 @@
           placeholder="Üzenet"
           v-model="message"
         />
-        <input class="submit" type="submit" value="Küld" />
+        <input
+          :disabled="isButtonDisabled"
+          class="submit"
+          type="submit"
+          value="Küld"
+        />
         <p class="adatkezeles mt-[1.25rem]">
           A “KÜLD” gomb megnyomásával tudomásul vette és elfogadta az
           <a href="/nyilatkozat/adatkezelesi-nyilatkozat.pdf" target="_blank"
@@ -95,6 +100,7 @@ const config = useRuntimeConfig();
 const { $swal } = useNuxtApp();
 
 const form = ref();
+const isButtonDisabled = ref(false);
 
 // Validation
 const validationSchema = toTypedSchema(
@@ -108,45 +114,60 @@ const validationSchema = toTypedSchema(
   })
 );
 
-const { handleSubmit, errors, resetForm } = useForm({ validationSchema });
+const { errors, resetForm } = useForm({ validationSchema });
 
 const { value: email } = useField("email");
 const { value: name } = useField("name");
 const { value: message } = useField("message");
 
 // handle submit
-const sendEmail = handleSubmit(() => {
-  emailjs
-    .sendForm("service_kn49xyk", "template_97d1nf5", form.value, {
-      publicKey: "BxnGjPiCOCfZXuHP_",
-    })
-    .then(
-      () => {
-        resetForm();
-        $swal.fire({
-          title: "Siker!",
-          text: "Sikeresen elküldted az üzenetet!",
-          icon: "success",
-          color: "#5f2bfd",
-          backdrop: true,
-          timer: 2000,
-          timerProgressBar: true,
-        });
-      },
-      (error) => {
-        resetForm();
-        $swal.fire({
-          title: "Hiba!",
-          text: "Üzenet küldés sikertelen! Ellenőrizd az internet elérésed!",
-          icon: "error",
-          color: "#5f2bfd",
-          backdrop: true,
-          timer: 5000,
-          timerProgressBar: true,
-        });
-      }
-    );
-});
+const sendEmail = async () => {
+  try {
+    isButtonDisabled.value = true;
+    await emailjs
+      .sendForm("service_kn49xyk", "template_97d1nf5", form.value, {
+        publicKey: "BxnGjPiCOCfZXuHP_",
+      })
+      .then(
+        () => {
+          resetForm();
+          $swal.fire({
+            title: "Siker!",
+            text: "Sikeresen elküldted az üzenetet!",
+            icon: "success",
+            color: "#5f2bfd",
+            backdrop: true,
+            timer: 2000,
+            timerProgressBar: true,
+          });
+        },
+        (error) => {
+          resetForm();
+          $swal.fire({
+            title: "Hiba!",
+            text: "Üzenet küldés sikertelen! Ellenőrizd az internet elérésed!",
+            icon: "error",
+            color: "#5f2bfd",
+            backdrop: true,
+            timer: 5000,
+            timerProgressBar: true,
+          });
+        }
+      );
+  } catch (error) {
+    $swal.fire({
+      title: "Hiba!",
+      text: "Üzenet küldés sikertelen! Ellenőrizd az internet elérésed!",
+      icon: "error",
+      color: "#5f2bfd",
+      backdrop: true,
+      timer: 5000,
+      timerProgressBar: true,
+    });
+  } finally {
+    isButtonDisabled.value = false;
+  }
+};
 </script>
 <style scoped>
 .error {
@@ -210,6 +231,13 @@ const sendEmail = handleSubmit(() => {
 .submit:hover {
   background-color: #5f2bfd;
   border: 1px solid #5f2bfd;
+}
+
+.submit:disabled {
+  background: rgba(36, 36, 36, 0.75);
+  color: rgba(57, 57, 57, 0.75);
+  text-decoration: line-through;
+  cursor: default;
 }
 
 .textarea {
