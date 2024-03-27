@@ -21,7 +21,7 @@
 <script setup lang="ts">
 useHead({
   htmlAttrs: { lang: "hu" },
-  title: "Whiz - Együtt szárnyalunk, ügyfeleink sikeréért.",
+  title: "Whiz - Kecskemét Weboldal Készítés",
   script: [
     {
       src: `https://www.googletagmanager.com/gtag/js?id=G-V2KJCV5ZPQ`,
@@ -32,7 +32,7 @@ useHead({
     {
       name: "description",
       content:
-        "Kiemelkedő webfejlesztési, arculattervezési és pénzügyi tanácsadás szolgáltatásokat nyújtunk. Növelje online jelenlétét szakértelmünkkel. Lépjen velünk kapcsolatba még ma!",
+        "Weboldal készítés - Kiemelkedő webfejlesztési, arculattervezési és pénzügyi tanácsadás szolgáltatásokat nyújtunk. Növelje online jelenlétét szakértelmünkkel. Lépjen velünk kapcsolatba még ma!",
     },
     {
       name: "keywords",
@@ -57,12 +57,12 @@ useHead({
     },
     {
       property: "og:title",
-      content: "Whiz - Együtt szárnyalunk, ügyfeleink sikeréért.",
+      content: "Whiz - Kecskemét Weboldal Készítés",
     },
     {
       property: "og:description",
       content:
-        "Kiemelkedő webfejlesztési, arculattervezési és pénzügyi tanácsadás szolgáltatásokat nyújtunk. Növelje online jelenlétét szakértelmünkkel. Lépjen velünk kapcsolatba még ma!",
+        "Weboldal készítés - Kiemelkedő webfejlesztési, arculattervezési és pénzügyi tanácsadás szolgáltatásokat nyújtunk. Növelje online jelenlétét szakértelmünkkel. Lépjen velünk kapcsolatba még ma!",
     },
     { property: "og:type", content: "website" },
     { property: "og:url", content: "https://www.whiz.hu/" },
