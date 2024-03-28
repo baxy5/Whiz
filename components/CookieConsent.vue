@@ -34,7 +34,8 @@ function consentPermission(permission) {
 }
 
 onMounted(() => {
-  consentPermission("denied");
+  //denied
+  consentPermission("granted");
   const consented = localStorage.getItem(CONSENT_KEY);
   if (consented === null) {
     isHidden.value = false;
