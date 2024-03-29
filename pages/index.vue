@@ -21,7 +21,7 @@
 <script setup lang="ts">
 useHead({
   htmlAttrs: { lang: "hu" },
-  title: "Whiz - Kecskemét Weboldal Készítés",
+  title: "Kecskemét Weboldal Készítés | Arculattervezés | Pénzügyi tanácsadás",
   script: [
     {
       src: `https://www.googletagmanager.com/gtag/js?id=G-V2KJCV5ZPQ`,
