@@ -20,7 +20,7 @@
 <script setup>
 useHead({
   htmlAttrs: { lang: "hu" },
-  title: "Whiz - Arculattervezés",
+  title: "Arculattervezés, névjegykártya és webdesign Kecskemét | Whiz",
   script: [
     {
       src: `https://www.googletagmanager.com/gtag/js?id=G-V2KJCV5ZPQ`,

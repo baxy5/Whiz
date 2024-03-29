@@ -17,7 +17,7 @@
 <script setup>
 useHead({
   htmlAttrs: { lang: "hu" },
-  title: "Whiz - Pénzügyi tanácsadás",
+  title: "Pénzügyi tanácsadás Kecskemét | Whiz",
   script: [
     {
       src: `https://www.googletagmanager.com/gtag/js?id=G-V2KJCV5ZPQ`,

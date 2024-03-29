@@ -21,7 +21,7 @@
 <script setup>
 useHead({
   htmlAttrs: { lang: "hu" },
-  title: "Whiz - Webfejlesztés",
+  title: "Weboldal készítés Kecskemét | Whiz",
   script: [
     {
       src: `https://www.googletagmanager.com/gtag/js?id=G-V2KJCV5ZPQ`,
