@@ -53,7 +53,7 @@ useHead({
     },
     {
       property: "og:title",
-      content: "Whiz - Pénzügyi tanácsadás",
+      content: "Pénzügyi tanácsadás Kecskemét | Whiz",
     },
     {
       property: "og:description",

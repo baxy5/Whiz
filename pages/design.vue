@@ -56,7 +56,7 @@ useHead({
     },
     {
       property: "og:title",
-      content: "Whiz - Arculattervezés",
+      content: "Arculattervezés, névjegykártya és webdesign Kecskemét | Whiz",
     },
     {
       property: "og:description",

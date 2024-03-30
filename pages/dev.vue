@@ -57,7 +57,7 @@ useHead({
     },
     {
       property: "og:title",
-      content: "Whiz - Webfejlesztés",
+      content: "Weboldal készítés Kecskemét | Whiz",
     },
     {
       property: "og:description",

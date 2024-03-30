@@ -57,7 +57,8 @@ useHead({
     },
     {
       property: "og:title",
-      content: "Whiz - Kecskemét Weboldal Készítés",
+      content:
+        "Kecskemét Weboldal Készítés | Arculattervezés | Pénzügyi tanácsadás",
     },
     {
       property: "og:description",
