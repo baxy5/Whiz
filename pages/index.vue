@@ -32,7 +32,7 @@ useHead({
     {
       name: "description",
       content:
-        "Weboldal készítés - Kiemelkedő webfejlesztési, arculattervezési és pénzügyi tanácsadás szolgáltatásokat nyújtunk. Növelje online jelenlétét szakértelmünkkel. Lépjen velünk kapcsolatba még ma!",
+        "Weboldal készítés Kecskemét - Kiemelkedő webfejlesztési, arculattervezési és pénzügyi tanácsadás szolgáltatásokat nyújtunk. Növelje online jelenlétét szakértelmünkkel. Lépjen velünk kapcsolatba még ma!",
     },
     {
       name: "keywords",
@@ -63,7 +63,7 @@ useHead({
     {
       property: "og:description",
       content:
-        "Weboldal készítés - Kiemelkedő webfejlesztési, arculattervezési és pénzügyi tanácsadás szolgáltatásokat nyújtunk. Növelje online jelenlétét szakértelmünkkel. Lépjen velünk kapcsolatba még ma!",
+        "Weboldal készítés Kecskemét - Kiemelkedő webfejlesztési, arculattervezési és pénzügyi tanácsadás szolgáltatásokat nyújtunk. Növelje online jelenlétét szakértelmünkkel. Lépjen velünk kapcsolatba még ma!",
     },
     { property: "og:type", content: "website" },
     { property: "og:url", content: "https://www.whiz.hu/" },
