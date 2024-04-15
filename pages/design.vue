@@ -36,7 +36,7 @@ useHead({
     {
       name: "keywords",
       content:
-        "kecskemét webfejlesztes, kecskemét webfejlsztés, kecskemet, kecskemet weboldal, kecskemet weboldal keszites ,webfejlesztés, arculattervezés, pénzügyi tanácsadás, kecskemét, kecskemét webfejlesztés, kecskemét arculat tervezés, kecskemét pénzügyi tanácsadás, kecskemét weboldal, weboldal, weboldal készítés, design készítés, arculat készítés , kecskemét webdesign, kecskemét weboldal készítés, kecskemét webdesign készítés, kecskemét pénzügy, kecskemét tanácsadás, pénzügyi terv készítés, kecsemét pénzügyi terv készítés",
+        "kecskemet webfejlesztes, kecskemét webfejlsztés, kecskemet weboldal, kecskemét weboldal, kecskemet weboldal keszites, kecskemét weboldal készítés, webfejlesztés, kecskemét webfejlesztés, kecskemét arculattervezés, kecskemét pénzügyi tanácsadás, kecskemét webdesign, kecskemet penzügyi terv keszites, kecskemét pénzügyi terv készítés",
     },
     {
       name: "viewport",
