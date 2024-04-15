@@ -1,6 +1,6 @@
 <template>
   <main class="relative px-3 xxl:container overflow-hidden">
-    <CookieConsent />
+    <!-- <CookieConsent /> -->
     <Navbar />
     <Hero
       indicator-text="Ügyfél elégedettség"
