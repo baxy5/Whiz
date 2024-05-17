@@ -16,13 +16,15 @@
       <p
         class="text-white text-[1.125rem] font-normal leading-normal text-right lg:text-[1.5rem]"
       >
-        ~ Tekes-Szabó Krisztina
+        ~ Whiz Group
       </p>
     </Box>
     <div
       class="flex flex-col justify-center items-center lg:mt-4 lg:grid lg:grid-cols-2 lg:gap-4"
     >
-      <div class="w-[20rem] h-[20rem] lg:w-full lg:h-full xxl:h-[40rem] xxl:w-full xxl:flex justify-center items-center">
+      <div
+        class="w-[20rem] h-[20rem] lg:w-full lg:h-full xxl:h-[40rem] xxl:w-full xxl:flex justify-center items-center"
+      >
         <ClientOnly>
           <Vue3Lottie :animation-data="Lottie" />
         </ClientOnly>

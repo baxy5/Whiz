@@ -49,7 +49,7 @@
 
       <div class="idea-box relative w-full mt-16 py-[4rem]">
         <div class="idea-box-blur absolute top-0 left-0 w-full h-full"></div>
-        <div class="grid grid-cols-2 gap-10 px-6 md:flex md:pl-16">
+        <div class="grid grid-cols-3 gap-10 px-6 md:flex md:pl-16">
           <div>
             <h5 class="contact-title pb-[0.7rem]">Design / Webdev</h5>
             <div class="contact-info pb-[1rem]">
@@ -67,6 +67,14 @@
             <div class="contact-info pb-[1rem]">
               <p>Tekes-Szabó Krisztina</p>
               <p>06 30 229 6231</p>
+            </div>
+            <p class="contact-info">info@whiz.hu</p>
+          </div>
+          <div>
+            <h5 class="contact-title pb-[0.7rem]">Marketing</h5>
+            <div class="contact-info pb-[1rem]">
+              <p>Rácz Nikol</p>
+              <p>06 20 289 8586</p>
             </div>
             <p class="contact-info">info@whiz.hu</p>
           </div>
@@ -96,8 +104,8 @@ import { useForm, useField } from "vee-validate";
 import { z } from "zod";
 import { toTypedSchema } from "@vee-validate/zod";
 import emailjs from "@emailjs/browser";
-const config = useRuntimeConfig();
 const { $swal } = useNuxtApp();
+const config = useRuntimeConfig();
 
 const form = ref();
 const isButtonDisabled = ref(false);
@@ -125,9 +133,14 @@ const sendEmail = async () => {
   try {
     isButtonDisabled.value = true;
     await emailjs
-      .sendForm("service_kn49xyk", "template_97d1nf5", form.value, {
-        publicKey: "BxnGjPiCOCfZXuHP_",
-      })
+      .sendForm(
+        config.public.EMAIL_SERVICE_ID,
+        config.public.EMAIL_TEMPLATE_ID,
+        form.value,
+        {
+          publicKey: config.public.EMAIL_PUBLIC_KEY,
+        }
+      )
       .then(
         () => {
           resetForm();

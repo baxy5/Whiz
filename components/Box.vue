@@ -24,7 +24,6 @@ defineProps<{
 <style scoped>
 .fancy {
   width: 100%;
-  height: 100%;
   position: relative;
 
   border-radius: 1.25rem;
@@ -41,7 +40,6 @@ defineProps<{
 
 .dark {
   width: 100%;
-  height: 100%;
   position: relative;
 
   border-radius: 1.25rem;

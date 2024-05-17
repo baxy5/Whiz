@@ -1,6 +1,6 @@
 <template>
   <section class="asd">
-    <section id="container" class="mt-8 min-w-min flex gap-4">
+    <section id="container" class="mt-8 h-full min-w-min flex gap-4">
       <Box box-type="fancy" custom-class="p-8">
         <h3 class="title">
           Szalai Éva - <span class="font-light">Webfejleszés</span>
@@ -47,26 +47,6 @@
           ” -
         </p>
       </Box>
-      <Box box-type="fancy" custom-class="p-8">
-        <h3 class="title">
-          Szalai Éva - <span class="font-light">Webfejleszés</span>
-        </h3>
-        <p class="parag w-[17rem] md:w-[19rem] lg:w-[30rem]">
-          “Fiatalok, okosak, intelligensek, kultúráltak. Nekem ez fontos. Tenni
-          akarnak és ötletelnek. Határidőre dolgoznak. Hozzák a trendet, a
-          fiatalos gondolkodást, a lendületet. Szívből ajánlom Őket.” -
-        </p>
-      </Box>
-      <Box box-type="dark" custom-class="p-8">
-        <h3 class="title">
-          Szalai Éva - <span class="font-light">Webfejleszés</span>
-        </h3>
-        <p class="parag w-[17rem] md:w-[19rem] lg:w-[30rem]">
-          “Fiatalok, okosak, intelligensek, kultúráltak. Nekem ez fontos. Tenni
-          akarnak és ötletelnek. Határidőre dolgoznak. Hozzák a trendet, a
-          fiatalos gondolkodást, a lendületet. Szívből ajánlom Őket.” -
-        </p>
-      </Box>
     </section>
   </section>
 </template>
@@ -81,6 +61,7 @@ onNuxtReady(async () => {
   Draggable.create("#container", {
     type: "x",
     bounds: ".asd",
+    edgeResistance: 0.65,
   });
 });
 </script>
