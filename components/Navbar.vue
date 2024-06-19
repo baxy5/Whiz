@@ -8,7 +8,9 @@
       />
       <div class="navbar-mobile-container" v-if="isOpen">
         <div class="navbar-mobile">
-          <img src="/icons/whiz-logo.svg" alt="Whiz Company's Logo" />
+          <a href="/" class="flex">
+            <img src="/icons/whiz-logo.svg" alt="Whiz Company's Logo" />
+          </a>
           <ul>
             <li>
               <a href="/">Főoldal</a>
@@ -33,7 +35,9 @@
 
     <div class="hidden lg:flex justify-center">
       <div class="navbar-desktop">
-        <img src="/icons/whiz-logo.svg" alt="Whiz Company's Logo" />
+        <a href="/" class="flex">
+          <img src="/icons/whiz-logo.svg" alt="Whiz Company's Logo" />
+        </a>
         <ul>
           <li>
             <a href="/">Főoldal</a>

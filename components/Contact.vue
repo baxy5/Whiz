@@ -70,14 +70,6 @@
             </div>
             <p class="contact-info">info@whiz.hu</p>
           </div>
-          <div>
-            <h5 class="contact-title pb-[0.7rem]">Marketing</h5>
-            <div class="contact-info pb-[1rem]">
-              <p>Rácz Nikol</p>
-              <p>06 20 289 8586</p>
-            </div>
-            <p class="contact-info">info@whiz.hu</p>
-          </div>
         </div>
 
         <div class="hidden lg:block w-full mt-12">
@@ -92,7 +84,9 @@
         </div>
 
         <div class="flex justify-center items-center pt-12">
-          <img src="/icons/whiz-logo.svg" alt="Whiz Company's Logo" />
+          <a href="/"
+            ><img src="/icons/whiz-logo.svg" alt="Whiz Company's Logo"
+          /></a>
         </div>
       </div>
     </Box>
