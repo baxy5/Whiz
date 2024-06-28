@@ -7,8 +7,7 @@
           image-src="/icons/dev-icon.svg"
           image-alt="Fejlesztési Icon - Webfejlesztés Szolgáltatás"
           title="Webfejlesztés"
-          desc="Nem mindennapi weboldalakat készítünk modern, felhasználóbarát és
-          letisztult külsővel, kifejezetten az Ön igényeire szabva."
+          desc="Modern, felhasználóbarát és lenyűgöző weboldalakat tervezünk, amelyek pontosan tükrözik vállalkozásod egyediségét és igényeit."
           add-text="Tudj meg többet"
           add-href="/dev"
         />
@@ -41,13 +40,13 @@
         <h2
           class="text-white text-[1.125rem] font-bold leading-normal pb-[1.3rem] md:text-[1.25rem] lg:text-[1.5rem]"
         >
-          Van ötlete?
+          Van ötleted?
         </h2>
         <p
           class="text-white text-[0.8125rem] font-normal leading-normal pb-[2.2rem] md:text-[0.9rem] lg:text-[1rem]"
         >
-          Legyen a kapcsolatunk az első lépés a siker felé! Várjuk hívását vagy
-          email-es megkeresését.
+          Lépj velünk kapcsolatba, és együtt valóra váltjuk! Várjuk hívásodat
+          vagy email-edet.
         </p>
         <div
           class="flex gap-2 items-center text-white text-[0.875rem] leading-normal font-bold lg:text-[1rem]"

@@ -9,7 +9,7 @@
       indicator-alt="Star Icon - Jelzi a visszajelzések értékelését ami 4.8"
       span-one="Együtt alkotunk."
       span-two="Együtt szárnyalunk."
-      hero-text="Az /tonline /tjelenlét kulcsfontosságú. Képzelj csak el egy olyan /tweboldalt, amely pontosan tükrözi vállalkozásodat. /tÜgyfélbarát hozzáállásunk és a /t100%-os elégedettség elérése érdekében tett elkötelezettségünk tesz minket különlegessé."
+      hero-text="Az /tonline /tjelenlét elengedhetetlen. Képzeld el, hogy a /tweboldalad, nemcsak tükrözi vállalkozásodat, hanem /telvarázsolja látogatóidat is! /tÜgyfélbarát hozzáállásunk és a /t100%-os elégedettség elérése érdekében tett elkötelezettségünk tesz minket különlegessé."
     />
     <Services />
     <Testimonials />
